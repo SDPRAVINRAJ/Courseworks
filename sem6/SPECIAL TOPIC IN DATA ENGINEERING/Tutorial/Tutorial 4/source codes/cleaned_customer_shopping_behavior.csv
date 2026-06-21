@@ -1,0 +1,601 @@
+Customer ID,Age,Gender,Location,Purchase Amount,Product Category,Payment Method,Frequency of Purchase,Subscription Status,Review Rating,Previous Purchases,Purchase_Amount_Outlier_Flag
+CUST10111,56.0,Female,San Diego,15.33,Clothing,Debit Card,Weekly,No,3.4,6.0,False
+CUST10328,56.0,Female,Houston,81.66,Toys,Bank Transfer,Quarterly,No,2.3,7.0,False
+CUST10173,38.0,Female,Phoenix,47.2,Accessories,Debit Card,Weekly,No,3.3,7.0,False
+CUST10411,52.0,Male,Boston,135.51,Toys,Cash,Monthly,Yes,4.9,10.0,False
+CUST10537,56.0,Male,Miami,76.07499999999999,Sports,Cash,Annually,Yes,4.9,6.0,False
+CUST10453,38.0,Female,Chicago,38.87,Toys,Credit Card,Bi-Weekly,No,3.0,9.0,False
+CUST10064,37.0,Female,Miami,51.14,Toys,Bank Transfer,Annually,No,1.3,10.0,False
+CUST10165,41.0,Male,Chicago,113.95,Groceries,Cash,Annually,No,4.5,13.0,False
+CUST10078,41.0,Female,New York,131.52,Groceries,PayPal,Quarterly,Yes,1.1,10.0,False
+CUST10338,17.0,Female,San Antonio,160.97,Toys,Credit Card,Quarterly,No,5.0,7.0,False
+CUST10590,49.0,Female,San Antonio,66.77,Toys,Debit Card,Quarterly,No,3.5,9.0,False
+CUST10415,35.0,Female,Seattle,154.23,Groceries,Bank Transfer,Quarterly,Yes,3.2,5.0,False
+CUST10474,27.0,Female,Miami,131.51,Groceries,Cash,Weekly,No,3.9,9.0,False
+CUST10025,34.0,Male,San Antonio,218.94,Beauty,Credit Card,Bi-Weekly,Yes,3.0,6.0,False
+CUST10591,24.0,Female,San Antonio,117.83,Home & Kitchen,Bank Transfer,Monthly,Yes,4.1,9.0,False
+CUST10306,41.0,Female,Seattle,115.54,Beauty,Cash,Quarterly,No,1.5,8.0,False
+CUST10108,38.0,Female,Phoenix,99.71,Books,Bank Transfer,Quarterly,No,4.0,11.0,False
+CUST10074,17.0,Male,Boston,57.02,Clothing,PayPal,Monthly,Yes,4.2,8.0,False
+CUST10230,55.0,Male,Boston,42.2,Groceries,Bank Transfer,Bi-Weekly,No,2.0,11.0,False
+CUST10107,40.0,Male,Dallas,101.41,Footwear,Credit Card,Quarterly,Yes,1.9,8.0,False
+CUST10400,47.0,Female,Houston,185.06,Accessories,Credit Card,Bi-Weekly,Yes,3.7,5.0,False
+CUST10413,37.0,Female,Houston,88.32,Books,Bank Transfer,Bi-Weekly,No,2.4,7.0,False
+CUST10594,56.0,Male,Los Angeles,81.7,Books,PayPal,Quarterly,No,3.6,6.0,False
+CUST10428,48.0,Male,Atlanta,49.53,Home & Kitchen,Credit Card,Weekly,No,1.4,8.0,False
+CUST10479,29.0,Male,San Diego,111.83,Footwear,Cash,Monthly,No,3.0,6.0,False
+CUST10525,46.0,Male,Atlanta,115.14,Beauty,Cash,Quarterly,No,3.0,8.0,False
+CUST10531,44.0,Female,Houston,55.34,Accessories,Debit Card,Weekly,Yes,1.1,12.0,False
+CUST10194,39.0,Female,Miami,86.46,Groceries,Cash,Bi-Weekly,No,1.4,8.0,False
+CUST10223,31.0,Female,Boston,77.54,Footwear,Credit Card,Quarterly,No,4.9,8.0,False
+CUST10404,16.0,Male,San Diego,37.75,Electronics,Credit Card,Weekly,Yes,4.1,11.0,False
+CUST10346,50.0,Male,Seattle,139.63,Groceries,Credit Card,Monthly,No,1.6,5.0,False
+CUST10524,34.0,Female,Houston,23.13,Groceries,Debit Card,Monthly,No,1.1,10.0,False
+CUST10289,45.0,Male,Seattle,71.07,Electronics,Credit Card,Quarterly,No,2.4,10.0,False
+CUST10228,34.0,Female,Seattle,39.45,Accessories,Credit Card,Weekly,No,5.0,4.0,False
+CUST10233,56.0,Female,Seattle,77.15,Electronics,Cash,Monthly,No,3.0,7.0,False
+CUST10175,23.0,Male,Los Angeles,65.29,Toys,Bank Transfer,Weekly,No,2.4,5.0,False
+CUST10482,47.0,Female,San Diego,93.87,Sports,Debit Card,Bi-Weekly,Yes,3.4,8.0,False
+CUST10080,16.0,Male,San Diego,29.09,Sports,Debit Card,Quarterly,No,1.9,10.0,False
+CUST10555,55.0,Male,Los Angeles,210.65,Sports,PayPal,Weekly,No,3.6,4.0,False
+CUST10455,29.0,Female,Boston,99.32,Sports,Bank Transfer,Annually,No,1.6,7.0,False
+CUST10443,38.0,Female,Austin,232.24,Books,Cash,Quarterly,Yes,2.9,8.0,True
+CUST10405,43.0,Male,Chicago,187.64,Toys,Debit Card,Annually,No,2.9,8.0,False
+CUST10407,51.0,Male,Los Angeles,101.18,Beauty,Debit Card,Quarterly,No,3.6,5.0,False
+CUST10066,39.0,Male,Atlanta,69.31,Footwear,Bank Transfer,Weekly,No,3.6,8.0,False
+CUST10240,65.0,Female,Philadelphia,37.45,Sports,PayPal,Weekly,No,1.6,7.0,False
+CUST10498,41.0,Male,Houston,3120.82,Home & Kitchen,PayPal,Monthly,Yes,1.7,10.0,True
+CUST10352,41.0,Female,Miami,35.87,Books,Debit Card,Quarterly,Yes,2.6,4.0,False
+CUST10050,33.0,Male,Atlanta,56.46,Sports,Debit Card,Quarterly,Yes,1.7,10.0,False
+CUST10125,38.0,Female,Denver,106.53,Toys,Debit Card,Bi-Weekly,No,2.7,8.0,False
+CUST10126,29.0,Female,Phoenix,72.65,Groceries,PayPal,Weekly,No,1.2,6.0,False
+CUST10536,16.0,Female,Austin,109.77,Electronics,Debit Card,Quarterly,Yes,1.2,9.0,False
+CUST10421,35.0,Female,Atlanta,97.11,Beauty,Cash,Quarterly,No,1.4,10.0,False
+CUST10500,30.0,Male,Seattle,51.29,Beauty,Cash,Quarterly,Yes,2.3,6.0,False
+CUST10181,32.0,Female,Boston,27.27,Books,Cash,Annually,No,2.9,11.0,False
+CUST10331,58.0,Female,Dallas,36.17,Electronics,Bank Transfer,Monthly,No,1.6,12.0,False
+CUST10562,38.0,Female,Boston,127.66,Electronics,Credit Card,Quarterly,No,2.8,14.0,False
+CUST10186,16.0,Female,Chicago,18.99,Clothing,PayPal,Bi-Weekly,No,2.4,7.0,False
+CUST10058,50.0,Female,Dallas,137.86,Home & Kitchen,Credit Card,Bi-Weekly,No,3.8,9.0,False
+CUST10573,26.0,Male,Miami,144.9,Books,Cash,Weekly,No,1.6,8.0,False
+CUST10265,37.0,Male,Seattle,226.44,Groceries,Bank Transfer,Annually,No,3.0,7.0,True
+CUST10185,31.0,Female,San Antonio,129.08,Electronics,PayPal,Weekly,Yes,4.0,11.0,False
+CUST10109,23.0,Female,Philadelphia,23.21,Sports,Bank Transfer,Quarterly,No,3.8,5.0,False
+CUST10329,44.0,Female,Seattle,38.36,Footwear,Credit Card,Weekly,No,5.0,9.0,False
+CUST10251,44.0,Male,Austin,121.89,Toys,Cash,Monthly,Yes,5.0,4.0,False
+CUST10188,34.0,Female,Boston,113.37,Books,Debit Card,Weekly,Yes,1.9,11.0,False
+CUST10505,16.0,Female,Los Angeles,88.86,Accessories,Debit Card,Quarterly,No,4.6,8.0,False
+CUST10282,65.0,Female,Denver,82.7,Groceries,Cash,Monthly,Yes,1.9,11.0,False
+CUST10489,24.0,Female,Chicago,63.35,Clothing,PayPal,Annually,Yes,3.1,10.0,False
+CUST10497,52.0,Male,Dallas,87.19,Electronics,Bank Transfer,Quarterly,No,5.0,7.0,False
+CUST10547,26.0,Male,San Antonio,112.98,Clothing,Credit Card,Quarterly,No,2.6,7.0,False
+CUST10167,35.0,Male,Dallas,11.4,Electronics,PayPal,Quarterly,Yes,3.4,3.0,False
+CUST10486,45.0,Female,Atlanta,53.46,Footwear,Debit Card,Weekly,No,1.5,10.0,False
+CUST10250,46.0,Male,Seattle,59.95,Books,Debit Card,Monthly,No,1.2,12.0,False
+CUST10092,17.0,Male,New York,108.8,Toys,Cash,Annually,No,2.2,3.0,False
+CUST10162,31.0,Male,Austin,125.55,Toys,Bank Transfer,Quarterly,No,1.5,4.0,False
+CUST10131,26.0,Female,Los Angeles,8.62,Electronics,Debit Card,Quarterly,No,4.6,9.0,False
+CUST10063,27.0,Male,San Antonio,67.67,Accessories,Credit Card,Quarterly,No,3.0,6.0,False
+CUST10190,31.0,Male,Phoenix,83.96,Toys,Credit Card,Monthly,Yes,2.3,0.0,False
+CUST10200,50.0,Female,San Diego,43.66,Accessories,Cash,Quarterly,No,2.4,2.0,False
+CUST10392,52.0,Female,New York,20.39,Beauty,Bank Transfer,Bi-Weekly,No,4.8,8.0,False
+CUST10549,42.0,Female,Seattle,37.93,Sports,PayPal,Bi-Weekly,No,3.8,10.0,False
+CUST10484,28.0,Female,Boston,76.07499999999999,Footwear,Debit Card,Annually,No,3.3,7.0,False
+CUST10353,54.0,Male,San Antonio,33.17,Electronics,Debit Card,Annually,Yes,1.3,9.0,False
+CUST10056,40.0,Male,Austin,109.08,Electronics,Cash,Annually,Yes,1.6,9.0,False
+CUST10032,16.0,Female,Atlanta,208.5,Accessories,Debit Card,Annually,Yes,3.0,5.0,False
+CUST10398,28.0,Female,Seattle,28.04,Accessories,Debit Card,Monthly,No,4.9,7.0,False
+CUST10371,61.0,Female,Boston,78.4,Toys,PayPal,Bi-Weekly,No,1.2,7.0,False
+CUST10332,59.0,Male,Dallas,300.23,Home & Kitchen,Cash,Bi-Weekly,Yes,1.8,7.0,True
+CUST10149,49.0,Female,Los Angeles,37.65,Accessories,Bank Transfer,Bi-Weekly,No,2.0,8.0,False
+CUST10016,40.0,Male,Philadelphia,28.83,Footwear,Bank Transfer,Weekly,No,3.6,9.0,False
+CUST10273,30.0,Female,Atlanta,185.48,Clothing,Bank Transfer,Quarterly,No,2.4,11.0,False
+CUST10005,24.0,Male,Los Angeles,20.02,Sports,PayPal,Annually,Yes,4.3,8.0,False
+CUST10210,29.0,Male,Atlanta,124.29,Electronics,Credit Card,Quarterly,No,2.4,6.0,False
+CUST10446,41.0,Male,Miami,141.7,Footwear,Credit Card,Monthly,No,2.7,11.0,False
+CUST10159,22.0,Male,Dallas,154.95,Beauty,Credit Card,Weekly,No,3.0,9.0,False
+CUST10597,16.0,Male,San Diego,64.35,Footwear,Debit Card,Quarterly,No,3.3,11.0,False
+CUST10018,24.0,Male,Denver,103.5,Groceries,Credit Card,Bi-Weekly,Yes,4.8,9.0,False
+CUST10319,42.0,Male,Dallas,100.58,Footwear,Bank Transfer,Monthly,No,4.7,8.0,False
+CUST10027,46.0,Female,Seattle,82.52,Sports,Credit Card,Bi-Weekly,Yes,2.6,9.0,False
+CUST10213,43.0,Female,Atlanta,98.63,Clothing,Credit Card,Bi-Weekly,Yes,3.8,7.0,False
+CUST10157,27.0,Male,Seattle,110.9,Clothing,Credit Card,Monthly,No,4.3,10.0,False
+CUST10012,27.0,Male,San Diego,76.07499999999999,Electronics,Credit Card,Bi-Weekly,No,3.5,5.0,False
+CUST10578,38.0,Female,Los Angeles,37.69,Footwear,PayPal,Monthly,Yes,3.0,13.0,False
+CUST10584,31.0,Male,Seattle,108.54,Beauty,PayPal,Quarterly,No,2.3,11.0,False
+CUST10334,48.0,Female,Seattle,15.05,Toys,Debit Card,Bi-Weekly,No,1.1,8.0,False
+CUST10041,51.0,Male,Dallas,84.72,Clothing,PayPal,Quarterly,Yes,1.5,5.0,False
+CUST10130,39.0,Female,Atlanta,35.94,Books,Cash,Bi-Weekly,Yes,4.4,6.0,False
+CUST10008,19.0,Male,San Diego,143.22,Toys,PayPal,Monthly,No,4.6,6.0,False
+CUST10292,35.0,Male,Atlanta,104.06,Sports,Bank Transfer,Weekly,Yes,2.7,4.0,False
+CUST10224,28.0,Female,Los Angeles,16.73,Toys,Bank Transfer,Bi-Weekly,Yes,3.6,6.0,False
+CUST10471,66.0,Male,Atlanta,45.67,Accessories,Credit Card,Bi-Weekly,No,4.0,9.0,False
+CUST10084,31.0,Male,Denver,87.96,Groceries,PayPal,Weekly,No,3.0,18.0,False
+CUST10089,52.0,Female,Dallas,165.37,Toys,Bank Transfer,Annually,Yes,4.8,10.0,False
+CUST10158,48.0,Female,Philadelphia,107.63,Electronics,Credit Card,Quarterly,Yes,2.0,11.0,False
+CUST10030,38.0,Male,Austin,134.62,Sports,Credit Card,Weekly,Yes,2.3,4.0,False
+CUST10387,16.0,Female,Seattle,52.28,Sports,Debit Card,Quarterly,No,3.8,7.0,False
+CUST10401,36.0,Male,Philadelphia,156.4,Footwear,Credit Card,Quarterly,Yes,1.5,6.0,False
+CUST10022,58.0,Male,Los Angeles,82.65,Clothing,PayPal,Annually,Yes,3.5,7.0,False
+CUST10459,24.0,Male,Houston,75.33,Accessories,Debit Card,Annually,No,2.4,8.0,False
+CUST10439,50.0,Female,Denver,106.35,Clothing,Bank Transfer,Annually,No,1.6,10.0,False
+CUST10204,27.0,Female,Austin,242.46,Footwear,Bank Transfer,Quarterly,Yes,4.8,8.0,True
+CUST10151,24.0,Male,Atlanta,2.94,Books,Credit Card,Monthly,No,4.8,10.0,False
+CUST10000,44.0,Male,Denver,68.93,Books,Debit Card,Bi-Weekly,No,3.4,6.0,False
+CUST10577,27.0,Female,Seattle,39.24,Footwear,Debit Card,Quarterly,No,3.0,7.0,False
+CUST10374,44.0,Male,Austin,60.5,Clothing,Cash,Bi-Weekly,Yes,3.2,9.0,False
+CUST10475,39.0,Male,San Antonio,56.02,Clothing,Bank Transfer,Weekly,No,4.9,9.0,False
+CUST10521,37.0,Female,Philadelphia,55.82,Toys,Debit Card,Bi-Weekly,No,1.6,6.0,False
+CUST10264,32.0,Male,Los Angeles,201.72,Footwear,Bank Transfer,Annually,Yes,2.9,8.0,False
+CUST10350,38.0,Male,Chicago,33.83,Electronics,Bank Transfer,Quarterly,No,2.5,6.0,False
+CUST10176,16.0,Male,Boston,41.43,Groceries,Debit Card,Bi-Weekly,Yes,3.4,7.0,False
+CUST10542,45.0,Male,New York,373.64,Toys,Debit Card,Quarterly,No,4.0,12.0,True
+CUST10438,27.0,Female,Seattle,36.66,Footwear,Credit Card,Monthly,Yes,1.9,5.0,False
+CUST10122,24.0,Female,Austin,38.61,Clothing,Bank Transfer,Quarterly,No,1.4,13.0,False
+CUST10437,21.0,Female,Seattle,120.11,Books,Debit Card,Annually,No,4.1,10.0,False
+CUST10312,67.0,Female,San Antonio,41.56,Sports,Bank Transfer,Quarterly,No,2.9,6.0,False
+CUST10504,38.0,Male,New York,25.86,Groceries,PayPal,Weekly,Yes,1.3,7.0,False
+CUST10083,33.0,Male,Denver,110.06,Home & Kitchen,PayPal,Annually,No,4.6,10.0,False
+CUST10091,40.0,Male,Seattle,118.54,Home & Kitchen,PayPal,Bi-Weekly,Yes,2.9,6.0,False
+CUST10260,35.0,Female,New York,72.7,Sports,Cash,Monthly,No,4.2,5.0,False
+CUST10358,48.0,Female,Austin,69.13,Electronics,PayPal,Bi-Weekly,Yes,1.7,9.0,False
+CUST10207,25.0,Male,Chicago,127.2,Groceries,Credit Card,Monthly,No,3.7,5.0,False
+CUST10234,16.0,Female,Seattle,124.28,Accessories,Bank Transfer,Weekly,No,3.7,6.0,False
+CUST10253,30.0,Female,Phoenix,97.56,Accessories,Bank Transfer,Monthly,No,3.5,14.0,False
+CUST10256,52.0,Female,Denver,187.39,Sports,Cash,Bi-Weekly,No,4.2,10.0,False
+CUST10254,52.0,Male,San Diego,149.28,Books,Debit Card,Annually,No,3.4,7.0,False
+CUST10515,21.0,Female,Seattle,47.78,Beauty,Bank Transfer,Monthly,No,1.6,4.0,False
+CUST10163,16.0,Male,Boston,61.57,Footwear,Credit Card,Weekly,No,2.2,9.0,False
+CUST10219,18.0,Male,San Diego,58.89,Toys,Cash,Bi-Weekly,Yes,4.3,9.0,False
+CUST10320,16.0,Male,Seattle,67.17,Footwear,Debit Card,Quarterly,Yes,2.5,6.0,False
+CUST10318,39.0,Female,Los Angeles,156.18,Books,Credit Card,Weekly,No,2.9,10.0,False
+CUST10487,39.0,Female,Austin,172.19,Toys,Bank Transfer,Quarterly,No,1.5,7.0,False
+CUST10424,35.0,Male,Miami,83.18,Books,PayPal,Quarterly,No,4.6,11.0,False
+CUST10441,39.0,Male,Los Angeles,29.91,Groceries,Debit Card,Annually,No,3.6,3.0,False
+CUST10295,48.0,Male,San Antonio,116.36,Home & Kitchen,Credit Card,Annually,No,3.0,8.0,False
+CUST10523,51.0,Male,Chicago,50.76,Footwear,Bank Transfer,Bi-Weekly,No,4.7,6.0,False
+CUST10290,43.0,Female,Seattle,101.05,Clothing,Debit Card,Quarterly,No,2.2,7.0,False
+CUST10406,25.0,Female,Austin,50.46,Groceries,Credit Card,Bi-Weekly,No,2.3,10.0,False
+CUST10499,25.0,Female,Miami,17.6,Clothing,Credit Card,Quarterly,Yes,2.8,11.0,False
+CUST10276,31.0,Male,Houston,32.24,Beauty,PayPal,Bi-Weekly,No,2.8,11.0,False
+CUST10103,46.0,Female,Houston,24.35,Books,Bank Transfer,Monthly,No,1.7,9.0,False
+CUST10235,42.0,Female,Miami,143.73,Home & Kitchen,Credit Card,Weekly,Yes,2.2,11.0,False
+CUST10571,47.0,Female,Chicago,69.7,Toys,Cash,Annually,No,3.0,1.0,False
+CUST10372,47.0,Female,New York,95.19,Footwear,PayPal,Weekly,No,4.7,10.0,False
+CUST10146,23.0,Female,Philadelphia,73.2,Books,PayPal,Quarterly,Yes,3.9,10.0,False
+CUST10119,30.0,Female,Atlanta,66.11,Groceries,PayPal,Weekly,No,1.3,13.0,False
+CUST10263,16.0,Female,Seattle,14.26,Toys,Cash,Quarterly,Yes,1.2,13.0,False
+CUST10035,54.0,Male,Houston,122.88,Sports,PayPal,Monthly,No,4.8,5.0,False
+CUST10182,36.0,Male,Chicago,30.04,Books,Credit Card,Monthly,No,2.9,12.0,False
+CUST10245,29.0,Male,Atlanta,114.59,Footwear,Cash,Quarterly,No,1.0,11.0,False
+CUST10308,28.0,Female,Denver,62.17,Groceries,Bank Transfer,Monthly,No,1.7,13.0,False
+CUST10364,37.0,Male,Denver,63.84,Sports,Credit Card,Weekly,Yes,4.0,8.0,False
+CUST10495,18.0,Female,Denver,76.07499999999999,Footwear,Credit Card,Monthly,No,4.1,6.0,False
+CUST10287,27.0,Male,Atlanta,29.29,Electronics,Bank Transfer,Bi-Weekly,Yes,3.2,14.0,False
+CUST10279,60.0,Female,Boston,128.75,Groceries,PayPal,Monthly,Yes,4.3,7.0,False
+CUST10402,25.0,Male,Philadelphia,41.89,Books,Credit Card,Weekly,No,2.6,8.0,False
+CUST10071,59.0,Male,Houston,188.93,Groceries,PayPal,Bi-Weekly,No,1.7,7.0,False
+CUST10096,56.0,Male,Denver,134.14,Books,Cash,Annually,No,4.7,8.0,False
+CUST10391,68.0,Male,Miami,44.6,Toys,PayPal,Bi-Weekly,Yes,1.1,7.0,False
+CUST10469,30.0,Male,Phoenix,76.97,Beauty,Credit Card,Annually,No,4.7,9.0,False
+CUST10274,39.0,Female,Phoenix,36.26,Home & Kitchen,PayPal,Quarterly,No,1.0,8.0,False
+CUST10461,59.0,Female,New York,92.67,Clothing,Credit Card,Annually,No,3.4,6.0,False
+CUST10496,18.0,Female,Boston,65.03,Accessories,Bank Transfer,Weekly,No,2.4,3.0,False
+CUST10266,59.0,Male,Seattle,48.63,Footwear,PayPal,Weekly,Yes,2.1,9.0,False
+CUST10284,26.0,Male,San Antonio,86.07,Footwear,Debit Card,Bi-Weekly,Yes,1.1,8.0,False
+CUST10412,52.0,Female,Philadelphia,54.67,Toys,PayPal,Quarterly,Yes,1.1,7.0,False
+CUST10565,45.0,Female,New York,119.89,Sports,PayPal,Bi-Weekly,No,3.9,8.0,False
+CUST10196,54.0,Female,San Diego,125.69,Books,Credit Card,Monthly,No,3.6,6.0,False
+CUST10420,21.0,Female,San Antonio,116.23,Footwear,Debit Card,Weekly,No,3.7,10.0,False
+CUST10053,30.0,Female,Houston,122.13,Toys,Bank Transfer,Monthly,No,4.0,11.0,False
+CUST10272,35.0,Female,Phoenix,41.13,Toys,Debit Card,Bi-Weekly,No,4.2,9.0,False
+CUST10595,32.0,Male,New York,212.28,Groceries,Debit Card,Quarterly,Yes,3.8,4.0,False
+CUST10003,30.0,Male,Philadelphia,135.87,Books,Debit Card,Monthly,Yes,3.7,5.0,False
+CUST10427,29.0,Male,Phoenix,40.15,Sports,Cash,Annually,No,4.9,8.0,False
+CUST10503,56.0,Male,Miami,128.03,Toys,Credit Card,Annually,No,1.6,7.0,False
+CUST10548,20.0,Male,Phoenix,66.98,Home & Kitchen,PayPal,Annually,Yes,1.1,6.0,False
+CUST10134,46.0,Male,Dallas,152.49,Beauty,Credit Card,Monthly,Yes,1.7,4.0,False
+CUST10015,46.0,Female,Dallas,157.4,Footwear,Bank Transfer,Monthly,No,3.0,5.0,False
+CUST10068,21.0,Female,San Diego,41.07,Beauty,PayPal,Monthly,No,3.4,10.0,False
+CUST10073,45.0,Female,Los Angeles,21.41,Accessories,Debit Card,Monthly,No,3.0,7.0,False
+CUST10044,23.0,Male,Boston,103.83,Toys,Debit Card,Bi-Weekly,No,4.6,5.0,False
+CUST10033,32.0,Female,Houston,86.83,Beauty,Debit Card,Quarterly,Yes,3.8,9.0,False
+CUST10477,51.0,Female,Dallas,104.73,Accessories,Bank Transfer,Monthly,No,4.9,9.0,False
+CUST10180,21.0,Male,Houston,39.43,Books,Cash,Monthly,No,3.2,11.0,False
+CUST10281,26.0,Male,Philadelphia,99.8,Home & Kitchen,Cash,Bi-Weekly,No,1.7,9.0,False
+CUST10097,39.0,Male,New York,136.07,Toys,PayPal,Weekly,Yes,2.8,5.0,False
+CUST10589,50.0,Female,Boston,104.24,Toys,PayPal,Weekly,No,1.2,5.0,False
+CUST10286,26.0,Female,New York,61.92,Sports,PayPal,Weekly,No,3.7,6.0,False
+CUST10055,34.0,Female,Miami,164.55,Home & Kitchen,PayPal,Bi-Weekly,Yes,2.9,9.0,False
+CUST10342,38.0,Male,Los Angeles,41.26,Groceries,Credit Card,Bi-Weekly,No,4.5,12.0,False
+CUST10303,42.0,Female,Chicago,66.67,Books,PayPal,Quarterly,Yes,3.5,8.0,False
+CUST10127,32.0,Male,Miami,84.96,Toys,Bank Transfer,Weekly,No,5.0,9.0,False
+CUST10183,44.0,Male,Los Angeles,114.17,Footwear,PayPal,Annually,No,4.8,8.0,False
+CUST10059,40.0,Female,Austin,309.83,Sports,Cash,Quarterly,No,1.1,14.0,True
+CUST10314,53.0,Female,Los Angeles,79.95,Clothing,Credit Card,Bi-Weekly,No,3.6,9.0,False
+CUST10558,38.0,Male,San Antonio,212.43,Beauty,Bank Transfer,Weekly,No,4.7,5.0,False
+CUST10369,44.0,Female,Houston,140.52,Groceries,PayPal,Bi-Weekly,No,2.6,9.0,False
+CUST10325,62.0,Female,Chicago,85.23,Beauty,Debit Card,Quarterly,No,1.2,6.0,False
+CUST10120,39.0,Female,Denver,45.89,Books,Cash,Bi-Weekly,No,1.7,10.0,False
+CUST10368,59.0,Female,Los Angeles,136.85,Sports,Cash,Monthly,Yes,1.6,10.0,False
+CUST10379,36.0,Male,Denver,97.95,Home & Kitchen,PayPal,Annually,Yes,1.3,12.0,False
+CUST10004,21.0,Male,Miami,147.15,Beauty,Bank Transfer,Weekly,No,3.2,9.0,False
+CUST10300,16.0,Male,Chicago,36.59,Toys,Cash,Annually,No,3.0,11.0,False
+CUST10100,16.0,Male,Philadelphia,49.99,Toys,Cash,Quarterly,No,4.6,8.0,False
+CUST10227,18.0,Male,Dallas,78.11,Books,Credit Card,Annually,No,2.8,7.0,False
+CUST10037,66.0,Male,Phoenix,41.35,Electronics,Debit Card,Weekly,No,1.8,11.0,False
+CUST10072,19.0,Male,Los Angeles,109.88,Accessories,Credit Card,Annually,No,2.2,9.0,False
+CUST10244,50.0,Male,New York,32.75,Electronics,Cash,Quarterly,Yes,2.5,6.0,False
+CUST10366,40.0,Male,Houston,59.95,Toys,PayPal,Weekly,No,2.6,9.0,False
+CUST10043,37.0,Female,Denver,98.56,Footwear,Credit Card,Bi-Weekly,No,3.5,3.0,False
+CUST10384,34.0,Female,San Diego,169.39,Clothing,Cash,Quarterly,Yes,1.7,9.0,False
+CUST10129,49.0,Male,San Diego,41.76,Clothing,Bank Transfer,Monthly,No,3.0,6.0,False
+CUST10535,33.0,Male,Miami,60.51,Footwear,Bank Transfer,Annually,Yes,2.3,6.0,False
+CUST10154,42.0,Female,Austin,170.44,Electronics,Credit Card,Bi-Weekly,No,4.2,11.0,False
+CUST10433,42.0,Female,Seattle,161.16,Footwear,Bank Transfer,Bi-Weekly,Yes,1.9,10.0,False
+CUST10478,37.0,Male,New York,24.06,Beauty,PayPal,Annually,No,2.5,8.0,False
+CUST10278,23.0,Female,Dallas,88.27,Beauty,PayPal,Monthly,No,3.0,7.0,False
+CUST10532,28.0,Male,Seattle,70.55,Sports,Credit Card,Bi-Weekly,Yes,3.0,10.0,False
+CUST10564,16.0,Male,Phoenix,49.43,Toys,Debit Card,Weekly,No,2.1,6.0,False
+CUST10311,24.0,Male,Seattle,154.36,Footwear,Cash,Weekly,No,3.6,9.0,False
+CUST10294,38.0,Female,Philadelphia,64.05,Toys,Debit Card,Annually,No,1.2,9.0,False
+CUST10238,49.0,Male,Atlanta,62.26,Sports,PayPal,Monthly,No,1.4,6.0,False
+CUST10397,38.0,Female,Chicago,102.81,Footwear,Cash,Quarterly,No,1.6,9.0,False
+CUST10520,59.0,Female,Houston,144.19,Clothing,Bank Transfer,Annually,No,4.7,11.0,False
+CUST10389,36.0,Female,Houston,183.1,Clothing,PayPal,Quarterly,No,1.7,10.0,False
+CUST10395,41.0,Female,Atlanta,21.36,Beauty,Credit Card,Bi-Weekly,No,3.1,11.0,False
+CUST10509,16.0,Male,Denver,117.08,Toys,Bank Transfer,Bi-Weekly,Yes,2.9,7.0,False
+CUST10195,19.0,Female,Phoenix,23.76,Home & Kitchen,Credit Card,Weekly,Yes,4.1,11.0,False
+CUST10512,26.0,Male,Chicago,51.59,Home & Kitchen,Bank Transfer,Bi-Weekly,Yes,4.5,4.0,False
+CUST10208,46.0,Female,Miami,65.64,Footwear,Debit Card,Annually,Yes,3.5,6.0,False
+CUST10095,34.0,Male,Boston,71.48,Books,Bank Transfer,Annually,No,2.6,6.0,False
+CUST10592,35.0,Female,Houston,23.19,Electronics,Debit Card,Monthly,Yes,1.4,9.0,False
+CUST10526,60.0,Female,Denver,231.92,Sports,PayPal,Annually,No,2.9,12.0,True
+CUST10067,45.0,Male,Seattle,60.98,Toys,Debit Card,Bi-Weekly,Yes,1.3,4.0,False
+CUST10335,37.0,Female,Phoenix,73.89,Accessories,Bank Transfer,Monthly,No,4.4,11.0,False
+CUST10480,43.0,Male,Houston,101.68,Groceries,Debit Card,Weekly,No,1.9,8.0,False
+CUST10153,37.0,Male,Houston,43.89,Toys,Cash,Monthly,Yes,3.2,9.0,False
+CUST10011,38.0,Male,Dallas,55.66,Books,Bank Transfer,Annually,No,1.2,9.0,False
+CUST10365,45.0,Female,Atlanta,92.46,Footwear,Debit Card,Annually,No,2.4,16.0,False
+CUST10239,43.0,Male,Dallas,141.56,Books,Debit Card,Monthly,No,2.7,9.0,False
+CUST10166,25.0,Female,Chicago,77.4,Groceries,Credit Card,Quarterly,No,3.0,9.0,False
+CUST10302,31.0,Male,San Antonio,145.62,Toys,Credit Card,Bi-Weekly,No,3.9,5.0,False
+CUST10556,44.0,Female,San Antonio,127.4,Accessories,Cash,Monthly,No,2.4,6.0,False
+CUST10087,51.0,Female,Chicago,34.29,Clothing,PayPal,Weekly,No,3.3,9.0,False
+CUST10049,26.0,Female,Dallas,24.57,Electronics,Cash,Bi-Weekly,Yes,3.3,6.0,False
+CUST10383,51.0,Female,Los Angeles,122.84,Beauty,Credit Card,Quarterly,Yes,1.8,10.0,False
+CUST10408,43.0,Female,Phoenix,15.61,Home & Kitchen,Credit Card,Quarterly,No,3.8,7.0,False
+CUST10211,40.0,Female,Miami,66.49,Accessories,Credit Card,Monthly,No,4.8,14.0,False
+CUST10298,48.0,Male,Phoenix,42.32,Footwear,Cash,Bi-Weekly,No,2.1,11.0,False
+CUST10576,37.0,Female,Seattle,116.77,Sports,Cash,Quarterly,No,4.7,7.0,False
+CUST10518,29.0,Female,Los Angeles,94.21,Footwear,Bank Transfer,Monthly,No,4.8,8.0,False
+CUST10588,24.0,Male,Phoenix,60.01,Groceries,Bank Transfer,Quarterly,No,3.9,7.0,False
+CUST10529,52.0,Female,Houston,171.95,Electronics,Bank Transfer,Monthly,Yes,1.9,11.0,False
+CUST10013,60.0,Male,San Antonio,130.33,Accessories,Cash,Monthly,No,3.0,7.0,False
+CUST10386,28.0,Female,San Antonio,197.16,Sports,Cash,Weekly,Yes,1.0,12.0,False
+CUST10197,38.0,Female,Seattle,35.03,Beauty,Cash,Quarterly,No,4.3,3.0,False
+CUST10017,20.0,Male,Atlanta,42.62,Beauty,PayPal,Weekly,Yes,4.9,10.0,False
+CUST10598,34.0,Male,Boston,66.56,Groceries,Debit Card,Bi-Weekly,No,3.6,10.0,False
+CUST10425,36.0,Male,Phoenix,64.23,Groceries,PayPal,Quarterly,No,3.5,6.0,False
+CUST10492,30.0,Female,Atlanta,120.28,Beauty,Bank Transfer,Annually,Yes,1.5,10.0,False
+CUST10141,47.0,Male,Phoenix,58.2,Groceries,Credit Card,Quarterly,No,2.5,7.0,False
+CUST10541,38.0,Female,Austin,68.94,Sports,Cash,Bi-Weekly,Yes,3.0,7.0,False
+CUST10243,29.0,Female,Los Angeles,62.5,Accessories,Bank Transfer,Bi-Weekly,Yes,3.0,7.0,False
+CUST10225,36.0,Male,Seattle,198.85,Groceries,Bank Transfer,Quarterly,No,2.1,6.0,False
+CUST10370,30.0,Male,New York,93.22,Toys,Credit Card,Annually,Yes,1.8,8.0,False
+CUST10569,38.0,Female,Phoenix,53.84,Groceries,Debit Card,Annually,No,3.1,5.0,False
+CUST10309,29.0,Female,Atlanta,37.72,Accessories,Debit Card,Annually,Yes,3.8,8.0,False
+CUST10553,46.0,Male,Phoenix,32.14,Sports,Bank Transfer,Monthly,No,4.3,10.0,False
+CUST10036,38.0,Female,Seattle,138.62,Groceries,Bank Transfer,Monthly,No,1.3,10.0,False
+CUST10079,49.0,Female,Atlanta,93.18,Accessories,PayPal,Annually,No,4.1,7.0,False
+CUST10024,31.0,Male,Los Angeles,46.91,Toys,PayPal,Quarterly,No,3.9,10.0,False
+CUST10065,48.0,Female,Phoenix,25.97,Toys,Cash,Quarterly,Yes,3.0,5.0,False
+CUST10114,39.0,Female,Seattle,25.78,Groceries,Bank Transfer,Annually,Yes,1.4,12.0,False
+CUST10333,20.0,Female,Philadelphia,114.96,Electronics,Cash,Bi-Weekly,Yes,3.0,6.0,False
+CUST10222,61.0,Female,Miami,46.76,Accessories,Cash,Bi-Weekly,No,1.2,9.0,False
+CUST10467,26.0,Male,San Antonio,7.17,Accessories,Cash,Quarterly,Yes,1.2,8.0,False
+CUST10258,36.0,Male,Dallas,89.64,Footwear,Debit Card,Annually,No,2.9,8.0,False
+CUST10177,45.0,Male,Boston,76.16,Sports,Bank Transfer,Monthly,No,1.2,3.0,False
+CUST10313,55.0,Male,Boston,34.29,Home & Kitchen,PayPal,Annually,Yes,2.6,9.0,False
+CUST10449,26.0,Female,Seattle,41.26,Sports,Debit Card,Weekly,No,4.0,6.0,False
+CUST10490,49.0,Male,Miami,66.14,Sports,Debit Card,Bi-Weekly,No,3.7,7.0,False
+CUST10231,29.0,Male,Atlanta,103.49,Accessories,PayPal,Quarterly,No,4.0,9.0,False
+CUST10511,60.0,Female,Dallas,68.16,Electronics,PayPal,Monthly,Yes,4.8,9.0,False
+CUST10560,39.0,Female,Houston,33.99,Accessories,PayPal,Bi-Weekly,No,2.7,9.0,False
+CUST10348,29.0,Female,San Antonio,109.99,Footwear,Debit Card,Annually,No,3.6,11.0,False
+CUST10587,44.0,Female,Philadelphia,113.97,Toys,PayPal,Monthly,Yes,2.3,9.0,False
+CUST10344,30.0,Female,Philadelphia,65.81,Footwear,Credit Card,Monthly,No,2.5,11.0,False
+CUST10104,33.0,Male,Seattle,50.84,Accessories,Debit Card,Monthly,No,3.1,6.0,False
+CUST10582,18.0,Female,Boston,141.65,Electronics,Credit Card,Annually,Yes,1.8,4.0,False
+CUST10179,22.0,Female,San Antonio,83.44,Beauty,Debit Card,Annually,Yes,3.2,6.0,False
+CUST10045,27.0,Female,Miami,50.53,Groceries,Debit Card,Quarterly,Yes,1.5,7.0,False
+CUST10191,29.0,Male,Dallas,76.63,Beauty,Credit Card,Annually,No,3.8,2.0,False
+CUST10135,50.0,Female,Seattle,43.14,Home & Kitchen,Bank Transfer,Weekly,No,2.5,6.0,False
+CUST10202,59.0,Male,Miami,70.43,Accessories,Cash,Bi-Weekly,Yes,1.2,10.0,False
+CUST10472,52.0,Female,Los Angeles,66.62,Groceries,PayPal,Monthly,No,4.5,8.0,False
+CUST10538,25.0,Male,Dallas,137.32,Electronics,Credit Card,Bi-Weekly,No,4.9,5.0,False
+CUST10156,24.0,Male,San Antonio,100.11,Electronics,PayPal,Annually,No,3.0,6.0,False
+CUST10431,28.0,Male,Denver,46.3,Electronics,PayPal,Quarterly,Yes,2.3,8.0,False
+CUST10513,43.0,Male,San Diego,53.6,Sports,Credit Card,Weekly,Yes,3.7,11.0,False
+CUST10255,45.0,Male,Philadelphia,148.84,Accessories,Debit Card,Bi-Weekly,No,2.1,8.0,False
+CUST10040,24.0,Male,Chicago,68.73,Groceries,Bank Transfer,Quarterly,No,3.4,10.0,False
+CUST10345,38.0,Female,Denver,3825.71,Electronics,Credit Card,Quarterly,Yes,2.5,9.0,True
+CUST10155,30.0,Male,Seattle,76.07499999999999,Toys,Cash,Quarterly,No,3.6,10.0,False
+CUST10574,28.0,Female,Philadelphia,87.2,Sports,Bank Transfer,Monthly,Yes,3.9,8.0,False
+CUST10510,30.0,Male,Miami,25.38,Sports,Debit Card,Weekly,Yes,1.2,8.0,False
+CUST10568,33.0,Female,Chicago,106.84,Groceries,Cash,Quarterly,No,4.7,9.0,False
+CUST10099,52.0,Male,San Antonio,70.27,Groceries,Credit Card,Monthly,No,4.0,9.0,False
+CUST10069,39.0,Female,San Diego,83.84,Clothing,Bank Transfer,Monthly,Yes,1.1,8.0,False
+CUST10288,34.0,Female,Phoenix,76.07499999999999,Toys,Credit Card,Quarterly,No,4.3,11.0,False
+CUST10259,48.0,Female,Atlanta,46.43,Sports,Cash,Quarterly,Yes,1.9,4.0,False
+CUST10168,52.0,Female,Seattle,49.8,Electronics,Bank Transfer,Annually,No,3.1,6.0,False
+CUST10247,47.0,Male,Atlanta,32.41,Footwear,Credit Card,Quarterly,No,2.7,9.0,False
+CUST10249,49.0,Female,Miami,107.99,Sports,Cash,Bi-Weekly,No,1.8,4.0,False
+CUST10070,16.0,Male,Houston,107.97,Home & Kitchen,Credit Card,Bi-Weekly,Yes,3.6,3.0,False
+CUST10232,21.0,Female,Miami,64.55,Sports,Bank Transfer,Annually,Yes,2.0,9.0,False
+CUST10464,41.0,Female,Los Angeles,160.45,Clothing,Credit Card,Bi-Weekly,Yes,3.9,9.0,False
+CUST10316,40.0,Female,San Diego,31.59,Electronics,PayPal,Weekly,Yes,1.8,8.0,False
+CUST10554,41.0,Male,Houston,38.36,Groceries,Cash,Weekly,Yes,2.1,7.0,False
+CUST10201,40.0,Female,San Antonio,78.49,Books,Credit Card,Quarterly,No,1.1,8.0,False
+CUST10507,28.0,Male,New York,116.79,Electronics,PayPal,Monthly,No,1.8,10.0,False
+CUST10090,21.0,Female,Atlanta,177.18,Groceries,PayPal,Monthly,No,2.9,9.0,False
+CUST10516,16.0,Female,San Antonio,83.03,Footwear,Credit Card,Bi-Weekly,No,4.6,7.0,False
+CUST10110,59.0,Male,San Antonio,140.66,Home & Kitchen,Cash,Monthly,No,2.9,6.0,False
+CUST10409,49.0,Male,Philadelphia,96.01,Clothing,Cash,Monthly,No,3.5,3.0,False
+CUST10580,55.0,Female,Chicago,68.61,Footwear,Credit Card,Bi-Weekly,No,4.3,3.0,False
+CUST10138,36.0,Female,Los Angeles,71.49,Clothing,Debit Card,Monthly,No,4.3,13.0,False
+CUST10599,34.0,Male,San Antonio,25.7,Books,PayPal,Weekly,No,4.3,9.0,False
+CUST10501,49.0,Male,Miami,64.31,Beauty,Bank Transfer,Quarterly,No,2.7,7.0,False
+CUST10445,45.0,Male,Chicago,58.31,Home & Kitchen,PayPal,Annually,No,3.9,9.0,False
+CUST10193,37.0,Female,Philadelphia,230.6,Home & Kitchen,Credit Card,Monthly,Yes,3.5,4.0,True
+CUST10367,52.0,Male,Houston,69.99,Sports,Credit Card,Weekly,No,4.9,10.0,False
+CUST10137,35.0,Female,Boston,62.45,Accessories,Credit Card,Bi-Weekly,No,3.6,16.0,False
+CUST10430,39.0,Female,Austin,76.35,Groceries,Debit Card,Annually,No,4.3,9.0,False
+CUST10356,54.0,Female,Phoenix,67.68,Sports,Cash,Quarterly,Yes,2.2,7.0,False
+CUST10377,27.0,Male,Philadelphia,63.22,Home & Kitchen,Cash,Quarterly,Yes,4.9,12.0,False
+CUST10052,18.0,Male,San Antonio,124.8,Toys,Debit Card,Quarterly,No,1.6,5.0,False
+CUST10481,38.0,Male,San Diego,144.44,Accessories,Bank Transfer,Quarterly,Yes,3.2,4.0,False
+CUST10088,58.0,Female,Austin,72.5,Clothing,Debit Card,Annually,No,2.8,8.0,False
+CUST10567,38.0,Female,Miami,119.47,Books,Debit Card,Bi-Weekly,Yes,2.9,6.0,False
+CUST10189,23.0,Female,Los Angeles,123.69,Groceries,Bank Transfer,Weekly,No,4.3,8.0,False
+CUST10034,16.0,Female,Atlanta,188.89,Electronics,Credit Card,Annually,No,1.4,3.0,False
+CUST10060,38.0,Female,Boston,147.33,Home & Kitchen,PayPal,Bi-Weekly,Yes,2.6,3.0,False
+CUST10301,29.0,Male,Philadelphia,18.5,Sports,Credit Card,Annually,No,1.9,6.0,False
+CUST10506,47.0,Female,New York,87.06,Toys,Credit Card,Weekly,No,4.4,7.0,False
+CUST10221,38.0,Female,San Diego,47.42,Electronics,PayPal,Bi-Weekly,Yes,2.2,7.0,False
+CUST10094,69.0,Male,Los Angeles,74.67,Sports,Debit Card,Monthly,No,3.2,3.0,False
+CUST10187,56.0,Female,New York,75.99,Electronics,Credit Card,Bi-Weekly,No,1.2,7.0,False
+CUST10029,42.0,Female,Phoenix,109.9,Toys,Bank Transfer,Quarterly,Yes,2.1,13.0,False
+CUST10132,56.0,Female,Denver,76.07499999999999,Footwear,Cash,Weekly,No,3.5,7.0,False
+CUST10001,30.0,Male,San Antonio,51.87,Clothing,Credit Card,Bi-Weekly,Yes,2.2,7.0,False
+CUST10093,70.0,Male,Denver,53.05,Books,Cash,Bi-Weekly,No,3.8,5.0,False
+CUST10561,50.0,Male,Miami,28.66,Books,Debit Card,Bi-Weekly,No,3.3,8.0,False
+CUST10468,47.0,Female,New York,27.31,Footwear,Cash,Weekly,No,4.3,6.0,False
+CUST10113,25.0,Male,Boston,32.0,Books,PayPal,Weekly,No,3.2,7.0,False
+CUST10242,23.0,Female,Seattle,147.51,Books,Cash,Bi-Weekly,No,1.7,8.0,False
+CUST10327,39.0,Female,Chicago,152.14,Beauty,Cash,Weekly,No,3.0,4.0,False
+CUST10470,16.0,Female,Dallas,143.6,Toys,Credit Card,Bi-Weekly,No,3.0,12.0,False
+CUST10241,41.0,Female,Miami,306.84,Beauty,Debit Card,Weekly,Yes,3.8,7.0,True
+CUST10203,38.0,Female,Austin,108.35,Clothing,Bank Transfer,Quarterly,No,1.6,11.0,False
+CUST10218,51.0,Female,Phoenix,76.07499999999999,Books,Cash,Quarterly,Yes,4.8,6.0,False
+CUST10268,44.0,Male,San Antonio,92.14,Groceries,Debit Card,Weekly,Yes,4.0,6.0,False
+CUST10414,51.0,Male,Boston,90.3,Sports,Cash,Bi-Weekly,No,2.8,9.0,False
+CUST10021,68.0,Male,New York,14.58,Accessories,Bank Transfer,Annually,Yes,3.4,4.0,False
+CUST10237,49.0,Male,Dallas,138.03,Home & Kitchen,Bank Transfer,Quarterly,No,1.6,500.0,False
+CUST10062,16.0,Male,Los Angeles,73.07,Toys,Cash,Annually,No,2.4,6.0,False
+CUST10026,56.0,Male,Chicago,23.31,Books,Cash,Weekly,No,4.4,4.0,False
+CUST10388,40.0,Female,Boston,161.24,Groceries,PayPal,Quarterly,Yes,4.9,7.0,False
+CUST10077,19.0,Female,Miami,104.69,Home & Kitchen,Credit Card,Quarterly,Yes,1.3,8.0,False
+CUST10139,34.0,Female,Chicago,74.83,Books,Credit Card,Quarterly,No,3.9,8.0,False
+CUST10229,36.0,Female,Houston,206.4,Accessories,Bank Transfer,Annually,Yes,2.0,5.0,False
+CUST10385,34.0,Male,Phoenix,14.19,Groceries,Debit Card,Annually,No,2.4,7.0,False
+CUST10517,47.0,Female,Chicago,43.53,Beauty,Cash,Quarterly,No,4.2,6.0,False
+CUST10539,29.0,Male,Dallas,44.1,Toys,PayPal,Annually,No,2.0,7.0,False
+CUST10557,47.0,Female,Miami,51.77,Clothing,Cash,Monthly,Yes,4.8,11.0,False
+CUST10444,20.0,Male,Atlanta,118.02,Home & Kitchen,Bank Transfer,Quarterly,No,4.3,8.0,False
+CUST10305,75.0,Female,Austin,70.03,Home & Kitchen,Cash,Bi-Weekly,Yes,2.1,6.0,False
+CUST10023,51.0,Male,Chicago,47.84,Accessories,Bank Transfer,Bi-Weekly,No,2.8,6.0,False
+CUST10171,36.0,Female,Dallas,79.86,Accessories,Debit Card,Monthly,No,2.4,8.0,False
+CUST10262,40.0,Male,Atlanta,109.36,Groceries,Credit Card,Quarterly,Yes,1.5,6.0,False
+CUST10508,37.0,Male,Boston,42.64,Groceries,Cash,Weekly,No,1.8,3.0,False
+CUST10343,23.0,Female,Denver,139.11,Footwear,PayPal,Monthly,Yes,1.5,13.0,False
+CUST10336,38.0,Female,Phoenix,106.07,Sports,Credit Card,Quarterly,No,2.7,5.0,False
+CUST10042,38.0,Female,Atlanta,177.24,Beauty,Debit Card,Weekly,No,4.6,11.0,False
+CUST10106,45.0,Female,Miami,33.48,Groceries,Cash,Quarterly,No,1.4,12.0,False
+CUST10212,21.0,Female,Philadelphia,96.15,Footwear,Bank Transfer,Annually,Yes,4.4,5.0,False
+CUST10540,63.0,Female,Austin,23.9,Accessories,Credit Card,Bi-Weekly,Yes,4.8,6.0,False
+CUST10051,44.0,Female,Denver,35.8,Books,Bank Transfer,Quarterly,Yes,3.2,8.0,False
+CUST10299,55.0,Female,Los Angeles,21.06,Clothing,PayPal,Monthly,No,3.3,9.0,False
+CUST10142,18.0,Male,Denver,161.25,Groceries,Credit Card,Monthly,No,1.4,10.0,False
+CUST10462,37.0,Male,Los Angeles,63.81,Electronics,PayPal,Quarterly,No,3.5,10.0,False
+CUST10399,17.0,Male,Denver,28.72,Clothing,Bank Transfer,Annually,Yes,5.0,9.0,False
+CUST10038,20.0,Male,Phoenix,214.73,Accessories,Debit Card,Bi-Weekly,No,4.5,5.0,False
+CUST10339,52.0,Female,San Diego,238.04,Beauty,Bank Transfer,Weekly,No,4.0,13.0,True
+CUST10082,33.0,Female,Denver,30.02,Sports,PayPal,Quarterly,Yes,3.8,7.0,False
+CUST10534,41.0,Male,San Diego,19.17,Accessories,Cash,Bi-Weekly,Yes,3.7,1.0,False
+CUST10116,66.0,Male,Boston,28.27,Clothing,PayPal,Monthly,No,3.9,4.0,False
+CUST10544,46.0,Female,San Antonio,62.97,Sports,Bank Transfer,Bi-Weekly,No,3.7,6.0,False
+CUST10257,49.0,Male,San Diego,41.38,Sports,PayPal,Annually,Yes,4.5,10.0,False
+CUST10429,47.0,Male,Philadelphia,83.09,Groceries,Bank Transfer,Weekly,No,4.4,7.0,False
+CUST10359,43.0,Female,Seattle,57.88,Accessories,Bank Transfer,Monthly,No,4.7,8.0,False
+CUST10261,44.0,Female,Denver,76.07499999999999,Home & Kitchen,Bank Transfer,Weekly,No,4.2,5.0,False
+CUST10148,39.0,Female,San Antonio,31.21,Beauty,Cash,Weekly,No,2.4,7.0,False
+CUST10390,41.0,Male,Los Angeles,52.51,Home & Kitchen,Debit Card,Annually,No,1.7,3.0,False
+CUST10128,22.0,Female,Los Angeles,15.73,Groceries,PayPal,Annually,No,3.9,4.0,False
+CUST10086,47.0,Female,Seattle,25.37,Groceries,Credit Card,Annually,Yes,4.1,10.0,False
+CUST10145,19.0,Male,San Diego,29.99,Home & Kitchen,Cash,Quarterly,No,1.1,11.0,False
+CUST10164,47.0,Female,Denver,47.06,Footwear,Debit Card,Bi-Weekly,Yes,3.3,7.0,False
+CUST10277,41.0,Female,Denver,113.51,Accessories,Debit Card,Bi-Weekly,No,2.6,9.0,False
+CUST10416,39.0,Male,Austin,47.94,Sports,Bank Transfer,Annually,Yes,1.1,7.0,False
+CUST10216,39.0,Male,Seattle,41.35,Accessories,Bank Transfer,Annually,Yes,1.7,9.0,False
+CUST10236,31.0,Female,Chicago,99.45,Toys,Debit Card,Annually,No,4.4,8.0,False
+CUST10057,57.0,Female,Houston,98.49,Footwear,Credit Card,Quarterly,Yes,2.4,7.0,False
+CUST10488,27.0,Male,San Antonio,113.98,Footwear,Credit Card,Bi-Weekly,Yes,3.0,10.0,False
+CUST10198,35.0,Female,San Diego,35.28,Groceries,PayPal,Weekly,No,2.6,7.0,False
+CUST10321,24.0,Female,Austin,99.96,Toys,Cash,Bi-Weekly,Yes,2.4,13.0,False
+CUST10417,47.0,Male,Houston,173.12,Home & Kitchen,Debit Card,Quarterly,Yes,4.0,8.0,False
+CUST10076,43.0,Male,Chicago,87.04,Sports,PayPal,Quarterly,No,3.3,12.0,False
+CUST10039,16.0,Female,Atlanta,169.15,Clothing,Credit Card,Monthly,Yes,4.4,13.0,False
+CUST10435,47.0,Female,Los Angeles,249.84,Clothing,Bank Transfer,Monthly,No,2.5,6.0,True
+CUST10485,40.0,Female,Miami,55.09,Beauty,Bank Transfer,Bi-Weekly,Yes,2.1,9.0,False
+CUST10373,39.0,Female,San Diego,52.0,Electronics,Bank Transfer,Annually,Yes,2.7,10.0,False
+CUST10209,65.0,Male,Boston,63.81,Groceries,Credit Card,Annually,No,2.2,11.0,False
+CUST10448,26.0,Female,Chicago,52.05,Accessories,Cash,Quarterly,No,2.2,7.0,False
+CUST10522,39.0,Male,Seattle,221.9,Sports,Credit Card,Annually,No,4.0,7.0,True
+CUST10552,35.0,Female,Philadelphia,3.07,Toys,Cash,Bi-Weekly,No,3.7,9.0,False
+CUST10545,40.0,Female,Phoenix,169.88,Accessories,PayPal,Bi-Weekly,No,1.2,7.0,False
+CUST10047,49.0,Female,Seattle,35.47,Sports,PayPal,Weekly,No,3.0,6.0,False
+CUST10275,25.0,Male,Phoenix,139.63,Toys,Bank Transfer,Weekly,No,1.7,4.0,False
+CUST10457,45.0,Female,Houston,112.06,Clothing,PayPal,Weekly,No,1.5,9.0,False
+CUST10502,33.0,Male,Dallas,70.23,Electronics,Credit Card,Annually,No,1.9,12.0,False
+CUST10465,29.0,Female,Philadelphia,64.33,Beauty,Debit Card,Quarterly,No,2.2,11.0,False
+CUST10283,34.0,Female,Atlanta,72.37,Sports,Credit Card,Weekly,No,4.4,8.0,False
+CUST10396,51.0,Male,Miami,51.01,Beauty,Credit Card,Quarterly,No,1.9,5.0,False
+CUST10178,34.0,Male,San Antonio,191.61,Footwear,Debit Card,Annually,No,4.6,11.0,False
+CUST10572,47.0,Female,Phoenix,88.2,Sports,Bank Transfer,Quarterly,Yes,3.7,7.0,False
+CUST10442,38.0,Female,Houston,62.6,Beauty,Debit Card,Quarterly,No,3.7,5.0,False
+CUST10330,20.0,Female,Seattle,50.72,Home & Kitchen,Credit Card,Bi-Weekly,No,4.3,8.0,False
+CUST10460,27.0,Female,Chicago,62.55,Clothing,Bank Transfer,Bi-Weekly,No,1.5,14.0,False
+CUST10551,38.0,Male,Chicago,147.13,Clothing,PayPal,Weekly,No,3.0,5.0,False
+CUST10543,34.0,Female,Phoenix,91.9,Books,Bank Transfer,Annually,No,1.4,6.0,False
+CUST10546,38.0,Male,Boston,49.27,Footwear,Credit Card,Annually,No,4.9,8.0,False
+CUST10355,24.0,Female,New York,85.55,Accessories,Credit Card,Monthly,Yes,4.8,5.0,False
+CUST10285,43.0,Female,New York,90.42,Accessories,Bank Transfer,Quarterly,Yes,3.0,8.0,False
+CUST10378,49.0,Male,Boston,74.28,Books,Bank Transfer,Bi-Weekly,No,3.2,6.0,False
+CUST10101,37.0,Male,Los Angeles,153.72,Beauty,PayPal,Weekly,No,4.5,9.0,False
+CUST10362,36.0,Female,Los Angeles,24.26,Books,Bank Transfer,Weekly,No,1.3,4.0,False
+CUST10323,30.0,Female,San Antonio,53.79,Accessories,Cash,Weekly,Yes,2.6,7.0,False
+CUST10514,52.0,Female,Philadelphia,100.27,Footwear,Debit Card,Monthly,No,2.7,10.0,False
+CUST10172,42.0,Female,Seattle,113.59,Accessories,Credit Card,Weekly,Yes,4.6,3.0,False
+CUST10579,33.0,Female,Seattle,26.12,Toys,PayPal,Monthly,No,4.5,8.0,False
+CUST10117,50.0,Female,Seattle,256.24,Footwear,Debit Card,Weekly,No,2.6,10.0,True
+CUST10121,23.0,Male,San Antonio,60.67,Accessories,PayPal,Monthly,Yes,4.7,10.0,False
+CUST10214,42.0,Female,Philadelphia,53.4,Sports,PayPal,Monthly,Yes,2.7,6.0,False
+CUST10452,38.0,Female,Austin,181.39,Sports,PayPal,Bi-Weekly,Yes,1.6,5.0,False
+CUST10447,16.0,Female,New York,41.02,Groceries,PayPal,Bi-Weekly,No,4.4,9.0,False
+CUST10296,27.0,Female,New York,54.56,Books,Cash,Bi-Weekly,No,3.0,5.0,False
+CUST10246,23.0,Female,Phoenix,173.54,Clothing,Credit Card,Bi-Weekly,No,1.8,13.0,False
+CUST10324,21.0,Male,Atlanta,201.04,Accessories,Bank Transfer,Bi-Weekly,Yes,3.2,3.0,False
+CUST10252,45.0,Male,San Diego,157.21,Beauty,Debit Card,Monthly,No,2.3,6.0,False
+CUST10432,38.0,Male,Seattle,60.97,Home & Kitchen,Debit Card,Quarterly,No,3.1,5.0,False
+CUST10403,23.0,Male,San Diego,38.51,Toys,PayPal,Weekly,No,4.1,7.0,False
+CUST10307,63.0,Male,Philadelphia,26.7,Accessories,Debit Card,Monthly,Yes,3.2,9.0,False
+CUST10326,20.0,Female,Chicago,18.89,Groceries,Bank Transfer,Bi-Weekly,No,5.0,6.0,False
+CUST10357,40.0,Male,Los Angeles,114.83,Books,Credit Card,Bi-Weekly,No,1.6,4.0,False
+CUST10337,16.0,Male,Houston,44.5,Footwear,PayPal,Quarterly,No,1.1,8.0,False
+CUST10436,40.0,Female,Seattle,98.41,Electronics,Cash,Monthly,No,3.1,7.0,False
+CUST10271,16.0,Female,San Diego,155.95,Clothing,PayPal,Annually,Yes,1.1,5.0,False
+CUST10434,37.0,Female,Atlanta,85.39,Toys,PayPal,Monthly,Yes,3.3,12.0,False
+CUST10291,23.0,Male,Atlanta,40.25,Clothing,Debit Card,Annually,No,3.0,6.0,False
+CUST10124,38.0,Male,Phoenix,84.96,Groceries,Credit Card,Monthly,No,3.0,10.0,False
+CUST10585,28.0,Female,San Diego,39.08,Footwear,Bank Transfer,Annually,No,1.2,8.0,False
+CUST10010,16.0,Female,Seattle,95.06,Groceries,Cash,Quarterly,Yes,1.5,11.0,False
+CUST10317,33.0,Female,Philadelphia,129.45,Groceries,Debit Card,Monthly,No,2.2,6.0,False
+CUST10054,44.0,Male,San Diego,189.84,Footwear,Credit Card,Annually,No,1.6,9.0,False
+CUST10581,50.0,Male,San Antonio,115.81,Electronics,Credit Card,Quarterly,No,3.0,5.0,False
+CUST10566,55.0,Female,Denver,141.46,Clothing,Credit Card,Quarterly,No,2.4,9.0,False
+CUST10140,53.0,Female,Boston,48.56,Beauty,Bank Transfer,Weekly,No,1.0,7.0,False
+CUST10583,67.0,Female,Houston,218.46,Books,Cash,Bi-Weekly,Yes,3.0,6.0,False
+CUST10205,30.0,Male,New York,71.64,Footwear,Cash,Quarterly,No,2.8,8.0,False
+CUST10014,38.0,Male,Boston,108.24,Books,PayPal,Monthly,No,4.3,9.0,False
+CUST10297,28.0,Female,Seattle,26.2,Accessories,Cash,Annually,Yes,4.6,9.0,False
+CUST10463,50.0,Female,New York,24.16,Electronics,Debit Card,Monthly,No,4.7,7.0,False
+CUST10152,29.0,Female,New York,111.3,Footwear,Debit Card,Weekly,Yes,1.7,11.0,False
+CUST10280,54.0,Male,New York,85.33,Books,Bank Transfer,Annually,No,1.5,5.0,False
+CUST10570,36.0,Female,Dallas,76.07499999999999,Toys,Cash,Bi-Weekly,No,3.2,5.0,False
+CUST10184,68.0,Male,Miami,86.18,Groceries,PayPal,Quarterly,Yes,1.1,9.0,False
+CUST10192,48.0,Male,Miami,39.36,Groceries,Credit Card,Monthly,Yes,1.4,10.0,False
+CUST10419,22.0,Female,Philadelphia,91.53,Books,Bank Transfer,Weekly,No,1.7,8.0,False
+CUST10341,49.0,Female,Miami,81.61,Books,PayPal,Annually,No,4.0,8.0,False
+CUST10593,35.0,Female,Denver,156.99,Accessories,Cash,Monthly,Yes,1.9,13.0,False
+CUST10150,28.0,Male,Miami,41.28,Sports,PayPal,Monthly,No,3.2,7.0,False
+CUST10418,42.0,Male,Miami,163.07,Accessories,PayPal,Weekly,Yes,4.1,9.0,False
+CUST10519,59.0,Male,Denver,200.39,Electronics,Credit Card,Annually,No,4.3,10.0,False
+CUST10454,39.0,Male,Austin,112.25,Sports,Debit Card,Monthly,No,1.2,3.0,False
+CUST10493,18.0,Female,Chicago,27.61,Electronics,Credit Card,Annually,Yes,1.3,13.0,False
+CUST10161,31.0,Male,Chicago,71.26,Accessories,Cash,Monthly,Yes,4.7,9.0,False
+CUST10144,44.0,Female,Dallas,25.0,Accessories,Cash,Weekly,No,5.0,11.0,False
+CUST10169,51.0,Male,Atlanta,76.94,Accessories,Debit Card,Annually,No,3.8,9.0,False
+CUST10586,28.0,Female,Seattle,95.96,Sports,PayPal,Quarterly,No,2.6,9.0,False
+CUST10527,32.0,Female,Philadelphia,241.92,Accessories,Credit Card,Monthly,No,1.4,13.0,True
+CUST10380,47.0,Female,New York,150.0,Toys,Cash,Annually,Yes,1.7,6.0,False
+CUST10375,28.0,Female,Denver,48.55,Beauty,PayPal,Monthly,Yes,4.1,3.0,False
+CUST10596,38.0,Female,Denver,79.8,Clothing,PayPal,Bi-Weekly,Yes,2.6,9.0,False
+CUST10147,36.0,Male,Los Angeles,65.82,Beauty,Debit Card,Annually,No,2.0,8.0,False
+CUST10473,50.0,Male,Seattle,57.48,Toys,Cash,Weekly,No,1.8,9.0,False
+CUST10456,31.0,Male,Denver,83.88,Electronics,Cash,Quarterly,Yes,3.0,7.0,False
+CUST10220,31.0,Female,Denver,39.5,Beauty,Cash,Monthly,No,4.5,8.0,False
+CUST10174,61.0,Female,Seattle,43.55,Toys,Debit Card,Monthly,No,2.2,14.0,False
+CUST10267,30.0,Male,Houston,51.63,Electronics,Credit Card,Weekly,No,1.9,4.0,False
+CUST10075,40.0,Male,Miami,25.74,Groceries,Credit Card,Monthly,No,3.9,9.0,False
+CUST10483,16.0,Female,Atlanta,46.13,Toys,Cash,Bi-Weekly,Yes,3.3,4.0,False
+CUST10006,51.0,Male,Boston,134.64,Books,Credit Card,Weekly,No,1.3,6.0,False
+CUST10226,55.0,Male,Chicago,114.87,Books,PayPal,Monthly,No,4.8,9.0,False
+CUST10215,53.0,Female,Seattle,126.45,Books,Bank Transfer,Weekly,No,2.7,12.0,False
+CUST10098,24.0,Male,Austin,51.7,Clothing,Credit Card,Annually,No,3.6,9.0,False
+CUST10248,27.0,Male,Phoenix,32.34,Accessories,Bank Transfer,Monthly,Yes,3.5,7.0,False
+CUST10105,49.0,Female,Houston,95.12,Electronics,Cash,Bi-Weekly,No,3.1,5.0,False
+CUST10118,41.0,Male,Atlanta,51.51,Accessories,Debit Card,Quarterly,No,2.1,5.0,False
+CUST10206,17.0,Female,Denver,102.22,Groceries,Debit Card,Quarterly,Yes,3.4,12.0,False
+CUST10112,47.0,Male,Atlanta,91.26,Groceries,Credit Card,Quarterly,No,4.7,5.0,False
+CUST10528,24.0,Female,Miami,69.29,Beauty,Cash,Annually,Yes,2.0,10.0,False
+CUST10304,38.0,Female,San Antonio,76.48,Books,Cash,Monthly,Yes,1.4,12.0,False
+CUST10019,32.0,Male,Dallas,129.06,Accessories,Cash,Annually,No,3.2,12.0,False
+CUST10426,31.0,Male,Houston,114.86,Toys,Cash,Monthly,No,2.6,4.0,False
+CUST10393,27.0,Female,Phoenix,83.79,Footwear,Cash,Weekly,Yes,2.8,8.0,False
+CUST10382,55.0,Female,Austin,64.85,Accessories,PayPal,Weekly,No,1.3,12.0,False
+CUST10007,53.0,Female,Philadelphia,38.33,Beauty,Debit Card,Weekly,No,4.5,9.0,False
+CUST10160,38.0,Male,Austin,85.47,Toys,Bank Transfer,Quarterly,Yes,4.1,11.0,False
+CUST10351,54.0,Female,Houston,55.01,Books,Credit Card,Annually,No,2.8,10.0,False
+CUST10046,49.0,Male,Seattle,48.15,Home & Kitchen,Cash,Monthly,No,1.7,7.0,False
+CUST10423,53.0,Male,Atlanta,151.38,Beauty,Debit Card,Quarterly,No,2.1,12.0,False
+CUST10310,38.0,Male,Boston,242.07,Books,Credit Card,Quarterly,Yes,1.8,6.0,True
+CUST10550,19.0,Male,Miami,53.6,Sports,PayPal,Weekly,No,2.9,10.0,False
+CUST10466,22.0,Female,Denver,131.33,Groceries,Cash,Bi-Weekly,Yes,4.7,8.0,False
+CUST10450,46.0,Male,Seattle,41.5,Clothing,Debit Card,Monthly,Yes,4.4,7.0,False
+CUST10363,45.0,Female,San Diego,76.07499999999999,Accessories,Debit Card,Bi-Weekly,Yes,4.7,9.0,False
+CUST10293,38.0,Male,Austin,66.82,Footwear,Cash,Monthly,Yes,2.2,7.0,False
+CUST10217,63.0,Male,Seattle,375.38,Accessories,PayPal,Annually,No,4.7,14.0,True
+CUST10376,53.0,Male,Los Angeles,65.4,Footwear,Credit Card,Quarterly,No,2.7,6.0,False
+CUST10123,32.0,Male,Boston,153.19,Beauty,Debit Card,Annually,Yes,4.5,7.0,False
+CUST10199,47.0,Female,Miami,119.18,Footwear,Bank Transfer,Monthly,Yes,4.9,4.0,False
+CUST10422,55.0,Female,Chicago,59.01,Books,Cash,Annually,No,1.5,8.0,False
+CUST10002,29.0,Male,Houston,110.98,Sports,Cash,Quarterly,No,3.4,3.0,False
+CUST10394,38.0,Male,Seattle,108.39,Groceries,Credit Card,Annually,Yes,2.0,12.0,False
+CUST10559,41.0,Male,Los Angeles,29.25,Toys,PayPal,Annually,No,3.0,3.0,False
+CUST10028,31.0,Female,Miami,87.04,Toys,Credit Card,Quarterly,Yes,4.4,5.0,False
+CUST10533,45.0,Male,Seattle,15.7,Accessories,Bank Transfer,Weekly,No,3.7,9.0,False
+CUST10020,49.0,Female,Seattle,48.78,Beauty,Cash,Quarterly,No,4.5,12.0,False
+CUST10031,42.0,Male,Dallas,69.32,Electronics,Debit Card,Annually,Yes,3.3,10.0,False
+CUST10575,22.0,Female,Houston,76.07499999999999,Accessories,Bank Transfer,Annually,Yes,2.4,6.0,False
+CUST10491,27.0,Male,San Antonio,57.0,Toys,PayPal,Weekly,No,3.3,9.0,False
+CUST10347,28.0,Male,Los Angeles,135.49,Home & Kitchen,Cash,Weekly,Yes,3.0,7.0,False
+CUST10476,31.0,Female,Dallas,70.67,Home & Kitchen,Cash,Monthly,No,2.1,6.0,False
+CUST10081,40.0,Male,Houston,104.14,Toys,Debit Card,Annually,No,3.1,6.0,False
+CUST10494,55.0,Female,Dallas,67.45,Books,Debit Card,Annually,No,3.2,8.0,False
+CUST10381,32.0,Male,Los Angeles,61.15,Clothing,Credit Card,Bi-Weekly,Yes,4.1,3.0,False
+CUST10009,49.0,Male,Boston,94.06,Beauty,Credit Card,Weekly,Yes,1.7,10.0,False
+CUST10322,43.0,Male,Chicago,83.58,Beauty,PayPal,Quarterly,Yes,3.0,5.0,False
+CUST10410,32.0,Female,Los Angeles,48.29,Clothing,Debit Card,Monthly,No,4.8,10.0,False
+CUST10170,38.0,Male,Los Angeles,83.65,Beauty,Credit Card,Bi-Weekly,Yes,3.0,7.0,False
+CUST10563,16.0,Male,Philadelphia,137.43,Accessories,PayPal,Annually,No,3.7,4.0,False
+CUST10440,36.0,Male,Seattle,187.59,Groceries,PayPal,Bi-Weekly,No,4.6,9.0,False
+CUST10102,31.0,Male,San Diego,95.12,Toys,Credit Card,Annually,No,2.8,6.0,False
+CUST10270,38.0,Male,Phoenix,83.35,Books,Credit Card,Annually,No,4.6,4.0,False
+CUST10530,32.0,Male,Austin,68.42,Electronics,Debit Card,Monthly,No,3.1,7.0,False
+CUST10315,16.0,Male,Philadelphia,51.84,Toys,Cash,Annually,No,4.8,8.0,False
+CUST10354,27.0,Female,Chicago,33.39,Toys,Bank Transfer,Monthly,No,1.7,6.0,False
+CUST10349,33.0,Male,Philadelphia,25.43,Home & Kitchen,Debit Card,Annually,No,1.0,8.0,False
+CUST10143,37.0,Male,Austin,165.53,Accessories,Bank Transfer,Monthly,No,1.2,9.0,False
+CUST10061,38.0,Female,Phoenix,18.54,Beauty,Credit Card,Bi-Weekly,Yes,4.7,7.0,False
+CUST10269,42.0,Male,Philadelphia,37.09,Accessories,Bank Transfer,Monthly,Yes,3.0,11.0,False
+CUST10458,40.0,Male,Miami,56.07,Electronics,Bank Transfer,Annually,Yes,4.7,6.0,False
+CUST10115,44.0,Male,San Antonio,26.73,Electronics,Credit Card,Bi-Weekly,No,4.4,9.0,False
+CUST10085,33.0,Male,Chicago,40.49,Books,Credit Card,Bi-Weekly,Yes,1.6,7.0,False
+CUST10048,29.0,Male,Phoenix,32.65,Clothing,Credit Card,Quarterly,Yes,4.6,9.0,False
+CUST10360,33.0,Male,Denver,159.14,Footwear,Credit Card,Quarterly,No,1.5,8.0,False
+CUST10136,56.0,Male,Houston,211.43,Electronics,Bank Transfer,Annually,Yes,4.2,8.0,False
+CUST10133,41.0,Female,New York,54.73,Beauty,Debit Card,Quarterly,No,1.3,5.0,False
+CUST10361,42.0,Female,Philadelphia,174.16,Footwear,PayPal,Weekly,Yes,1.4,6.0,False
+CUST10340,38.0,Female,Boston,155.54,Sports,Cash,Quarterly,No,1.8,8.0,False
+CUST10451,27.0,Female,Austin,76.07499999999999,Books,Debit Card,Weekly,Yes,4.8,10.0,False

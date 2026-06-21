@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: spark_postgres
+    environment:
+      POSTGRES_USER: censo
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: censo_escolar
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    container_name: adminer_spark
+    ports:
+      - "8081:8080"
+    depends_on:
+      - postgres
+
+  metabase:
+    image: metabase/metabase:latest
+    container_name: metabase_censo
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

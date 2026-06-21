@@ -1,0 +1,13 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Local Python files (in case they write helper scripts)
+__pycache__/
+*.py[cod]
+venv/
+env/
