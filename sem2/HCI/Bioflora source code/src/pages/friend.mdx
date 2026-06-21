@@ -1,0 +1,52 @@
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BaseCard from "../components/BaseCard.astro";
+import error from "../components/blog/error.astro";
+import info from "../components/blog/info.astro";
+import success from "../components/blog/success.astro";
+import warn from "../components/blog/warning.astro";
+import TimeLine from "../components/page/TimeLine.astro";
+import FriendCard from "../components/page/FriendCard.astro";
+
+<BaseLayout PageID="groupmembers">
+  <BaseCard title="Group Members">
+    <div style="font-family:Freeman; font-size:20px;">
+    # Group Members
+    </div>
+    ---
+
+    <div class="grid grid-cols-2 gap-4" style="text-align:left">
+      <FriendCard
+        title="LAU YAN KAI"
+        desc="A tech enthusiast who is always eager to learn and create."
+        badge="Lead"
+        url="https://github.com/lauyankai"
+        img="/pic01.jpeg"
+      />
+      <FriendCard
+        title="CHEW CHIU XIAN"
+        desc="I'm an introvert and my ambition is to become data scientist"
+        url="https://github.com/cxchew"
+        img="/image.webp"
+      />
+      <FriendCard
+        title="DANISH AFIQ BIN ROSHISHAM"
+        img="/DanishProfilePic.jpeg"
+        desc="I would love to be more involved in the cybersecurity industry"
+        url="https://github.com/danafuq"
+      />
+      <FriendCard
+        title="DHESHIEGHAN A/L SARAVANA MOORTHY"
+        img="/dhe.jpg"
+        desc="I'm a talkative guy!"
+        badge=""
+        url="https://github.com/dheshieghan227"
+      />
+      <FriendCard
+        title="PRAVINRAJ A/L SIVABATHI"
+        img="/bra.jpg"
+        desc="I'd like to become a data engineer in the future."
+        url="https://github.com/SDPRAVINRAJ"
+      />
+    </div>
+  </BaseCard>
+</BaseLayout>
