@@ -1,100 +1,171 @@
-# 🌐 Network Design for Faculty of Computing Block N28B
-### SECR1213-12 Network Communications Group Project — Group 5 (CyberLinks)
+# COMPUTER NETWORKS
 
-Welcome to the **Network & Communications** repository. This project details the architectural planning, hardware device selection, physical cabling layout, and IP addressing schema for the new two-floor building of the **Faculty of Computing at Universiti Teknologi Malaysia (UTM)**.
+## 📚 Course Information
 
----
-
-## 📂 Repository Structure
-```text
-├───reports
-│       Task_3_LAN_Devices.pdf             # Detailed LAN device selection & reflections
-│       Task_4_Making_Connections.pdf      # Cabling specifications & physical layout design
-│       Task_5_IP_Assignation.pdf          # IP addressing and subnetting tables
-│       Task_6A_Full_Project_Report.pdf    # Comprehensive Group Project Full Report
-│
-└───simulations
-        Project_Floor_Plan_Lvl_2.pkt       # Cisco Packet Tracer network simulation file
-```
+- Course: Computer Networks
+- Semester: Semester 4
+- Programme: Bachelor of Computer Science (Data Engineering)
 
 ---
 
-## 🏫 Project Overview
-- **Objective**: Design a secure, high-performance, and scalable network infrastructure to support academic labs, classrooms, student lounges, administrative facilities, and anticipated **15% expansion** of students and staff over the next four years.
-- **Academic Context**: SECR1213-12 (Network Communications)
-- **Institution**: Universiti Teknologi Malaysia (UTM)
-- **Supervising Lecturer**: Dr. Firoz Yusuf Patel Dawoodi
-- **Group Members (CyberLinks)**:
-  - Muhammad Afiq Danish bin Mohd Hazni (A23CS0118)
-  - Muhammad Syahmi Faris bin Rusli (A23CS0138)
-  - Muhammad Afiq Danial bin Rozaidie (A23CS0117)
-  - Dheshieghan A/L Saravana Moorthy (A23CS0072)
+# 🎯 Course Overview
 
-### 💰 Budget & Cost Breakdown
-- **Allocated Budget**: RM 5,000,000.00
-- **Total Network Infrastructure Cost**: **RM 857,094.54**
-- **Surplus Budget**: RM 4,142,905.46
+Computer Networks introduces the fundamental concepts of data communication and networking. The course covers network architectures, protocols, routing, switching, IP addressing, network security, and network configuration.
+
+Through practical laboratory exercises and networking simulations, students gain hands-on experience in designing, configuring, and troubleshooting computer networks.
 
 ---
 
-## ⚙️ Hardware & Device Specifications
+# 📂 Laboratory Activities & Learning Topics
 
-We selected premium, enterprise-grade hardware to future-proof the faculty building:
+## 🌐 OSI Model and TCP/IP Model
 
-| Device Category | Model | key Specifications | Quantity |
-| :--- | :--- | :--- | :---: |
-| **Enterprise Router** | Cisco Catalyst C8200L 1N-4T | Intel x86 CPU, 4GB RAM, 8GB Flash, 4 WAN + 2 SFP + 2 RJ45 ports | 1 |
-| **Workgroup Switch** | Cisco Catalyst C9200L-24P-4G-E | 24 Ports PoE+, 80 Gbps stacking, 2GB DRAM, 4GB Flash | 4 |
-| **Wireless AP** | Ubiquiti U7 Pro Max | Wi-Fi 7 (802.11be), 15 Gbps throughput, PoE+, covers 160 m² | 9 |
-| **Cable Modem** | Netgear Orbi RBSE960B | Quad-Band Wi-Fi 6E mesh system, 1GB RAM, 512MB Flash | 2 |
-| **Lab Router** | Cisco 4451 ISR | Multi-core x86, 1-2 Gbps upgradable throughput, 8GB Flash | 2 |
-| **Lab Switch** | Catalyst 9300X-M | Stackable 24/48 ports, 480 Gbps capacity, 16GB DRAM | 4 |
-| **Workstations** | HP Pavilion Gaming TG01-2015D | AMD Ryzen 5 5600G, 8GB DDR4, 512GB SSD, NVIDIA RTX 3060 Ti | 130 |
+### Description
 
----
+Studied the layered architecture used in modern computer networks and how data is transmitted between devices.
 
-## 🛜 IP Addressing & Subnetting Plan
-The network addressing layout splits the assigned group base network **`192.168.0.0/8`** into dedicated **`/24` subnets** (`255.255.255.0`) to isolate broadcast domains and ensure security:
+### Key Learning Areas
 
-| Subnet | Work Area | Devices Count | Network Address | Usable IP Range | Broadcast Address |
-| :---: | :--- | :---: | :---: | :--- | :---: |
-| **1** | Hybrid Classroom | 4 | `192.168.1.0` | `192.168.1.1 - 192.168.1.254` | `192.168.1.255` |
-| **2** | Cafe | 3 | `192.168.2.0` | `192.168.2.1 - 192.168.2.254` | `192.168.2.255` |
-| **3** | Video Conferencing Room | 11 | `192.168.3.0` | `192.168.3.1 - 192.168.3.254` | `192.168.3.255` |
-| **4** | Student Lounge | 4 | `192.168.4.0` | `192.168.4.1 - 192.168.4.254` | `192.168.4.255` |
-| **5** | General Purpose Lab 1 | 39 | `192.168.5.0` | `192.168.5.1 - 192.168.5.254` | `192.168.5.255` |
-| **6** | General Purpose Lab 2 | 39 | `192.168.6.0` | `192.168.6.1 - 192.168.6.254` | `192.168.6.255` |
-| **7** | Cisco Network Lab | 45 | `192.168.7.0` | `192.168.7.1 - 192.168.7.254` | `192.168.7.255` |
-| **8** | Embedded Lab | 38 | `192.168.8.0` | `192.168.8.1 - 192.168.8.254` | `192.168.8.255` |
+- OSI 7-Layer Model
+- TCP/IP Model
+- Data Encapsulation
+- Network Communication
+- Protocol Functions
+
+### Reflection
+
+This topic helped me understand how different network layers work together to enable communication between devices. It provided a strong foundation for understanding network operations and troubleshooting.
 
 ---
 
-## 🔌 Cabling & Infrastructure Layout
-To minimize signal loss and maximize structural integrity:
-- **Horizontal Cabling**: Belden 2413 UTP Cat6 (supporting up to 10 Gbps and 250 MHz frequency).
-- **Vertical Backbone**: Single-Mode Corning OS2 Fiber Optic Cable (supporting 10 Gbps to 100 Gbps backbones across floors).
-- **Terminations**: Tripp Lite 24-Port Cat6 Metal Patch Panels.
-- **Connectors**: ZoeRax Shielded Gold-Plated Cat6A RJ45 to prevent electromagnetic interference (EMI).
+## 📡 IP Addressing and Subnetting
 
-### 📏 Cable Length Summary
-- **Ground Floor Horizontal Cabling**: **265 meters**
-- **First Floor Horizontal Cabling**: **253 meters**
-- **Vertical Backbone Fiber Optic Cabling**: **150 meters**
-- **Total Cabling Length**: **668 meters**
-- **Total Patch Cords**: **112**
-- **Total Switch Ports**: **28**
+### Description
 
----
+Learned how IP addresses are assigned and how networks are divided using subnetting techniques.
 
-## 💻 Simulation & Modeling
-The folder `/simulations/` contains the complete **Cisco Packet Tracer** network design files implementing:
-1. Two-floor topology simulation.
-2. VLAN routing and encapsulation on the Cisco Catalyst C8200L router.
-3. DHCP scopes configured dynamically per subnet.
-4. Wireless Access Point configurations matching the Ubiquiti layout.
+### Key Learning Areas
 
+- IPv4 Addressing
+- Subnet Masks
+- Network IDs
+- Broadcast Addresses
+- CIDR Notation
+
+### Reflection
+
+Subnetting initially seemed challenging, but after several exercises, I learned how it improves network organization and resource allocation. This topic strengthened my logical and analytical thinking skills.
 
 ---
 
-## 💭 Course Reflection
-Designing network topologies and subnetting IP addresses using Cisco Packet Tracer taught me how network components interact. This understanding of ports, routing, and gateways is essential when setting up secure cloud data networks and firewalls.
+## 🔀 Routing and Switching
+
+### Description
+
+Configured and analyzed routing and switching operations within network environments.
+
+### Key Learning Areas
+
+- Routers and Switches
+- Static Routing
+- Dynamic Routing
+- VLAN Concepts
+- Network Connectivity
+
+### Reflection
+
+I learned how data travels across networks and how routers make forwarding decisions. This activity provided valuable insight into the backbone of modern communication systems.
+
+---
+
+## 🖥️ Network Simulation and Configuration
+
+### Description
+
+Performed networking laboratory exercises using simulation tools and network devices.
+
+### Key Learning Areas
+
+- Network Topology Design
+- Device Configuration
+- Connectivity Testing
+- Troubleshooting
+- Network Verification
+
+### Reflection
+
+The practical labs allowed me to apply theoretical concepts in realistic scenarios. Troubleshooting network issues improved my patience and problem-solving abilities.
+
+---
+
+## 🔒 Network Security Fundamentals
+
+### Description
+
+Explored common network threats and security mechanisms used to protect communication systems.
+
+### Key Learning Areas
+
+- Firewalls
+- Network Attacks
+- Security Protocols
+- Access Control
+- Data Protection
+
+### Reflection
+
+This topic increased my awareness of cybersecurity risks and highlighted the importance of securing network infrastructure in modern organizations.
+
+---
+
+# 💡 Overall Reflection
+
+Computer Networks provided a deeper understanding of how devices communicate and exchange information across local and global networks. Through both theoretical learning and practical laboratory exercises, I gained valuable knowledge about network architectures, protocols, routing, switching, and security.
+
+The hands-on activities helped bridge the gap between theory and real-world implementation, making complex networking concepts easier to understand. As a future Data Engineer, networking knowledge is important because modern data platforms rely heavily on distributed systems, cloud infrastructure, and reliable network communication.
+
+---
+
+# 🛠️ Skills Developed
+
+- Network Configuration
+- IP Addressing and Subnetting
+- Routing and Switching
+- Network Troubleshooting
+- Network Security Awareness
+- Analytical Thinking
+- Problem Solving
+- Technical Documentation
+- Communication Technology Fundamentals
+
+---
+
+# 🚧 Challenges Faced
+
+- Understanding subnetting calculations.
+- Configuring network devices correctly.
+- Troubleshooting connectivity issues.
+- Understanding routing concepts.
+- Learning networking terminology and protocols.
+
+These challenges improved my technical confidence and problem-solving skills.
+
+---
+
+# 🚀 Future Learning Goals
+
+After completing this course, I would like to further explore:
+
+- Cloud Networking
+- Network Automation
+- Cybersecurity
+- Software Defined Networking (SDN)
+- Network Monitoring
+- Distributed Systems
+- Infrastructure Engineering
+
+---
+
+# 📌 Conclusion
+
+Computer Networks provided a strong foundation in network communication, infrastructure, and security. The knowledge gained from lectures and laboratory activities improved my understanding of how modern networks operate and support digital systems. These skills will be valuable in future studies and careers involving Data Engineering, Cloud Computing, and Information Technology.
