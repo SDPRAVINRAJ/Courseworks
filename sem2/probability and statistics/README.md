@@ -1,70 +1,172 @@
-# Probability & Statistical Data Analysis
-## SECI 1143 - Probability & Statistical Data Analysis (UTM)
+# PROBABILITY & STATISTICAL DATA ANALYSIS
 
-This repository contains academic projects and statistical studies exploring data exploration, hypothesis testing, correlation/regression modeling, and dependency tests.
+## 📚 Course Information
 
----
-
-## 📂 Repository Structure
-```text
-├───project-1
-│       Project_1_Report_Gadget_Use.pdf     # Study on gadget use impact on learning
-│
-└───project-2
-        Heart_Dataset.csv                   # Coronary Heart Disease (CHD) dataset
-        Heart_Disease_Analysis.R            # R Script executing hypothesis, correlation & chi-square tests
-        Project_2_Report_Heart_Disease.pdf  # Comprehensive R-based statistical report
-```
+- **Course:** Probability & Statistical Data Analysis
+- **Semester:** Semester 2
+- **Programme:** Bachelor of Computer Science (Data Engineering)
 
 ---
 
-## 📱 Project 1: Gadget Use & Its Impact on Learning Outcomes
+# 🎯 Course Overview
 
-An empirical survey-based research study exploring how undergraduates at the Faculty of Computing, Universiti Teknologi Malaysia (UTM) utilize digital tools for their studies.
+Probability & Statistical Data Analysis provides the mathematical and analytical foundation required for data-driven decision-making. The course introduces probability theory, descriptive statistics, probability distributions, hypothesis testing, confidence intervals, correlation analysis, and statistical inference.
 
-### Methodology & Insights:
-- **Data Collection**: Gathered 67 survey responses from undergraduates using Google Forms.
-- **Demographics**: Respondent age ranges from 17 to 24 (Mean: 20.41, Mode/Median: 20).
-- **Core Findings**:
-  - **92.54%** of respondents find digital gadgets more convenient than traditional pen-and-paper for learning.
-  - **Laptops** are the most common primary study device (35.8%), followed closely by tablets (32.8%) and smartphones (31.3%).
-  - **Windows** is the most preferred operating system for educational activities.
-  - R programming was utilized to clean data, establish frequency distributions, and generate bar and pie charts.
+Through assignments, tutorials, and practical data analysis exercises, students learn how to collect, analyze, interpret, and present data effectively.
 
 ---
 
-## 💔 Project 2: Coronary Heart Disease (CHD) Statistical Study
+# 📂 Coursework & Learning Activities
 
-A rigorous statistical analysis performed on a clinical heart disease dataset to investigate correlations between patient demographics, heart rates, blood pressure, and target diagnoses.
+## 📊 Descriptive Statistics
 
-### Key Analysis & R Implementation:
-The analysis script (`Heart_Disease_Analysis.R`) implements four core statistical paradigms:
+### Description
 
-1. **Two-Sample Hypothesis Testing (T-Test)**:
-   - *Objective*: Check if the mean maximum heart rate is significantly higher in patients with heart disease than in patients without.
-   - *Method*: Independent two-sample t-test ($n_1=165$, $n_2=138$).
-2. **Correlation Analysis**:
-   - *Objective*: Investigate if age correlates linearly with resting blood pressure.
-   - *Method*: Pearson’s correlation coefficient ($r$) significance testing.
-3. **Simple Linear Regression**:
-   - *Objective*: Model maximum heart rate as a linear function of age.
-   - *Method*: Least-squares regression, calculating $R^2$, sum of squared errors, and testing slope significance.
-4. **Chi-Square Test of Independence**:
-   - *Objective*: Determine if the presence of Coronary Heart Disease is independent of a patient's biological sex.
-   - *Method*: Chi-square test on contingency tables.
+Studied methods for summarizing and visualizing datasets using statistical measures and graphical representations.
 
----
+### Key Learning Areas
 
-## 👥 Authors
-- **Dheshieghan A/L Moorthy** (Matric ID: A23CS0072)
-- **Pravinraj A/L Sivabathi** (Matric ID: A23CS0171)
-- **Harresh A/L Uthayakumar** (Matric ID: A23CS0226)
-- **Ghadeer Mahmoud** (Matric ID: T23CS4008)
+- Mean, Median, and Mode
+- Range and Interquartile Range
+- Variance and Standard Deviation
+- Histograms and Boxplots
+- Data Visualization
 
-**Lecturer**: Dr. Nor Haizan Bt Mohamed Radzi (Section 03)
+### Reflection
 
+This topic taught me how to understand data before performing deeper analysis. I learned that visualizing and summarizing data is an essential first step in identifying patterns, trends, and anomalies.
 
 ---
 
-## 💭 Course Reflection
-Applying statistical algorithms, distributions, and probability models to datasets here taught me how to find trends in noise. This is the bedrock of data analytics and feature engineering for machine learning pipelines.
+## 🎲 Probability Concepts
+
+### Description
+
+Learned the fundamentals of probability and event analysis.
+
+### Key Learning Areas
+
+- Sample Space and Events
+- Conditional Probability
+- Independent and Dependent Events
+- Probability Rules
+- Bayes' Theorem
+
+### Reflection
+
+Probability concepts helped me understand how uncertainty can be quantified and analyzed. These concepts are fundamental in predictive analytics, machine learning, and decision-making processes.
+
+---
+
+## 📈 Probability Distributions
+
+### Description
+
+Explored different probability distributions used to model real-world phenomena.
+
+### Key Learning Areas
+
+- Binomial Distribution
+- Poisson Distribution
+- Normal Distribution
+- Expected Value
+- Variance
+
+### Reflection
+
+Understanding distributions helped me appreciate how statistical models represent real-world data and support analytical predictions.
+
+---
+
+## 🔍 Statistical Inference
+
+### Description
+
+Applied statistical techniques to draw conclusions about populations using sample data.
+
+### Key Learning Areas
+
+- Sampling Methods
+- Confidence Intervals
+- Hypothesis Testing
+- Type I and Type II Errors
+- Statistical Decision Making
+
+### Reflection
+
+This topic demonstrated how conclusions can be drawn from limited data while accounting for uncertainty and variability.
+
+---
+
+## 📉 Correlation and Data Analysis
+
+### Description
+
+Analyzed relationships between variables using statistical methods.
+
+### Key Learning Areas
+
+- Correlation Analysis
+- Scatter Plots
+- Linear Relationships
+- Data Interpretation
+
+### Reflection
+
+I learned how statistical analysis can uncover relationships within datasets and support data-driven conclusions.
+
+---
+
+# 💡 Overall Reflection
+
+Probability & Statistical Data Analysis strengthened my analytical and quantitative thinking skills. The course taught me how to transform raw data into meaningful insights using statistical methods and probability concepts.
+
+One of the most valuable lessons from this course was understanding that data alone is not sufficient; proper statistical analysis is required to interpret information accurately and make reliable decisions. Through solving statistical problems and analyzing datasets, I became more confident in handling data and drawing conclusions based on evidence.
+
+As a future Data Engineer, statistical knowledge is essential because data pipelines and analytical systems ultimately support decision-making processes that rely on accurate statistical interpretation.
+
+---
+
+# 🛠️ Skills Developed
+
+- Statistical Analysis
+- Data Interpretation
+- Probability Calculations
+- Critical Thinking
+- Analytical Problem Solving
+- Data Visualization
+- Hypothesis Testing
+- Quantitative Reasoning
+- Decision Making
+
+---
+
+# 🚧 Challenges Faced
+
+- Understanding probability formulas and concepts.
+- Applying statistical methods correctly.
+- Interpreting hypothesis testing results.
+- Solving complex probability problems.
+- Connecting theoretical concepts with real-world datasets.
+
+These challenges improved my logical reasoning and analytical abilities.
+
+---
+
+# 🚀 Future Learning Goals
+
+After completing this course, I would like to further explore:
+
+- Machine Learning
+- Predictive Analytics
+- Data Mining
+- Statistical Modeling
+- Big Data Analytics
+- Artificial Intelligence
+- Advanced Data Science Techniques
+
+---
+
+# 📌 Conclusion
+
+Probability & Statistical Data Analysis provided a strong mathematical foundation for understanding and analyzing data. The course enhanced my ability to apply statistical reasoning, interpret results, and make informed decisions based on data. The knowledge gained from this course will continue to support my future studies and career in Data Engineering, Data Analytics, and Data Science.
