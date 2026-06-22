@@ -3,7 +3,7 @@
 ## 📚 Course Information
 
 - **Course:** Data Analytics and Visualization (DAP)
-- **Semester:** Semester 5
+- **Semester:** Semester 4
 - **Programme:** Bachelor of Computer Science (Data Engineering)
 
 ---
