@@ -128,3 +128,19 @@ Allows students to view active bus routes and schedules (Buses A, B, C, D) and t
 Provides UTHM administrative teams with real-time analytics including average occupancy rates, operational speeds, active shuttle summaries, passenger traffic trends, and categorized complaint breakdown charts.
 
 ![Transport Analytics Dashboard](images/ui_transport_analytics_dashboard.png)
+
+# 💡 Reflection
+
+The Digital Transformation & Enterprise Systems course provided valuable exposure to enterprise architecture planning, digital transformation strategies, and the role of information systems in supporting organizational goals. Through the development of the **UTHM Campus Transport & Shuttle Management System**, I gained practical experience in analyzing business problems and proposing technology-driven solutions at an enterprise level.
+
+One of the most significant lessons learned from this project was understanding how Enterprise Architecture (EA) helps align business objectives, processes, applications, data, and technology infrastructure within an organization. By applying the TOGAF ADM framework, I learned how organizations plan digital transformation initiatives systematically to ensure long-term sustainability and operational efficiency.
+
+The project also strengthened my skills in requirement analysis, business process modeling, system architecture design, and stakeholder-focused solution development. Designing an integrated transportation management system required careful consideration of user needs, operational challenges, and technological capabilities to create a practical and scalable solution.
+
+My primary contribution to the project was the development and design of the **Shuttle Occupancy Monitoring module**. This feature allows students and administrators to view real-time occupancy levels of shuttle buses, helping users make informed decisions when selecting transportation options. Through this component, I learned how data can be transformed into meaningful insights that improve user experience and operational efficiency. Working on this module also enhanced my understanding of analytics-driven systems, user interface design, and the importance of real-time information in modern digital services.
+
+In addition, developing the Figma prototype improved my UI/UX design skills and enhanced my understanding of user-centered design principles. Features such as live shuttle tracking, ETA prediction, occupancy monitoring, digital check-in, and analytics dashboards demonstrated how modern technologies can improve service quality and support data-driven decision-making.
+
+Working collaboratively with team members further improved my communication, teamwork, and project management skills. The project emphasized the importance of collaboration when designing enterprise-scale systems that involve multiple stakeholders and interconnected business processes.
+
+Overall, this course expanded my understanding of enterprise systems beyond software development by highlighting the strategic role of technology in organizational transformation. The knowledge and experience gained from this project will be highly valuable in my future career as a Data Engineer, where enterprise architecture, system integration, analytics, and data-driven decision-making play an important role in delivering business value.
