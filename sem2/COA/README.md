@@ -1,54 +1,140 @@
-# Computer Organization & Architecture (COA)
-## Lab Exercises, Assembly Programs, and System Benchmarks
+# COMPUTER ORGANIZATION AND ARCHITECTURE (COA)
 
-This repository contains academic laboratory works, custom low-level assembly programs, and hardware benchmark analysis reports for Computer Organization & Architecture.
+## 📚 Course Information
 
----
-
-## 📂 Repository Structure
-```text
-├───benchmarks
-│       Dell_Inspiron_16_5625_Geekbench.pdf        # Geekbench hardware benchmark details
-│
-└───labs
-    ├───assembly-tasks
-    │       part1_hexagon_perimeter.asm             # x86 Hexagon perimeter calculation (Loops)
-    │       part2_array_sum_odd_even.asm            # Array summation by even/odd index positions
-    │       part3_menu_driven_math.asm              # Menu-driven x86 console utility integrating both parts
-    │
-    └───lab-1
-        │   Lab_1_COA_Questions.docx                # Laboratory lab sheet questions
-        │
-        └───projects
-            ├───lab 1a                              # Visual Studio MASM template projects
-            ├───Lab 1b
-            └───Lab 1c
-```
+- **Course:** Computer Organization and Architecture (COA)
+- **Semester:** Semester 2
+- **Programme:** Bachelor of Computer Science (Data Engineering)
 
 ---
 
-## 💻 Assembly Programs (x86 / MASM / Irvine32)
-All assembly programs are written in **x86 Intel Assembly** and target the **Irvine32 link library**.
+# 🎯 Course Overview
 
-### 1. Hexagon Perimeter Calculator (`/labs/assembly-tasks/part1_hexagon_perimeter.asm`)
-- **Objective**: Computes the perimeter of two hexagons given their side lengths.
-- **Logic**: Reads decimal values using `ReadInt`, sets the loop counter `ecx` to 6, accumulates the side length value 6 times using loop additions, and prints results with `WriteInt`.
+Computer Organization and Architecture (COA) provides an understanding of how computer systems operate at the hardware level. The course explores processor architecture, memory hierarchy, instruction execution, performance evaluation, input/output systems, and computer organization principles.
 
-### 2. Even/Odd Array Index Summation (`/labs/assembly-tasks/part2_array_sum_odd_even.asm`)
-- **Objective**: Sums up elements located at even and odd positions inside a 6-element integer array.
-- **Logic**: Loops 6 times to store user inputs into a double-word array (`HELLO`). Calculates the even summation by fetching index offsets `0, 8, 16` (0, 2, 4) and the odd summation using index offsets `4, 12, 20` (1, 3, 5).
-
-### 3. Menu-Driven Console Utility (`/labs/assembly-tasks/part3_menu_driven_math.asm`)
-- **Objective**: Integrates both the hexagon perimeter calculator and the array summation routines under a unified user menu.
-- **Controls**: Users can select options via console input and choose to loop back to the main menu (entering `'y'`) or terminate the benchmark (entering `'n'`).
+Through laboratory exercises and benchmarking activities, students gain practical exposure to how hardware components affect system performance and efficiency.
 
 ---
 
-## 🖥️ System Performance Benchmarks (`/benchmarks/`)
-- Includes a comprehensive Geekbench benchmark report (`Dell_Inspiron_16_5625_Geekbench.pdf`) detailing processor, memory, cache hierarchy, and execution performance for a Dell Inspiron 16 5625 system powered by the **AMD Ryzen 5 5625U** processor.
+# 📂 Coursework & Learning Activities
 
+## 🖥️ Benchmarking Activity
+
+### Description
+Conducted system performance benchmarking using computer hardware performance evaluation tools.
+
+### Key Learning Areas
+- CPU Performance Analysis
+- Memory Performance Evaluation
+- Storage Performance Testing
+- System Resource Monitoring
+- Performance Metrics Interpretation
+
+### Reflection
+This activity helped me understand how computer performance can be measured and compared using benchmarking tools. I learned that processor speed alone does not determine overall system performance, as memory, storage, and system architecture also play important roles.
 
 ---
 
-## 💭 Course Reflection
-Studying assembly programming and ALU architecture in this course gave me a deep appreciation for hardware execution limits. Knowing how instructions and caches behave helps me write more hardware-friendly, low-level scripts.
+## 🔬 COA Laboratory Activities
+
+### Description
+Completed a series of laboratory exercises related to computer organization and architecture concepts.
+
+### Key Learning Areas
+- Processor Architecture
+- Instruction Execution Cycle
+- Memory Organization
+- Cache Memory Concepts
+- Input and Output Systems
+- Performance Optimization
+
+### Reflection
+The laboratory sessions allowed me to visualize concepts learned in lectures. Practical activities made it easier to understand how instructions are executed and how hardware components communicate within a computer system.
+
+---
+
+## 🧠 Memory Hierarchy and Cache Performance
+
+### Description
+Studied the relationship between registers, cache memory, main memory, and secondary storage.
+
+### Key Learning Areas
+- Memory Hierarchy
+- Cache Hits and Misses
+- Access Time
+- Performance Trade-offs
+
+### Reflection
+I learned how cache memory improves processing efficiency by reducing memory access time. Understanding memory hierarchy helped me appreciate how modern computer systems achieve high performance.
+
+---
+
+## ⚙️ CPU and Instruction Processing
+
+### Description
+Explored how processors execute instructions and manage system operations.
+
+### Key Learning Areas
+- Fetch Cycle
+- Decode Cycle
+- Execute Cycle
+- Control Unit
+- Arithmetic Logic Unit (ALU)
+
+### Reflection
+This topic provided insight into how computers process instructions step by step. It helped me understand the fundamental operations occurring behind every software application.
+
+---
+
+# 💡 Overall Reflection
+
+Computer Organization and Architecture provided me with a deeper understanding of how computers function internally. While software focuses on instructions and applications, this course revealed how hardware components cooperate to execute those instructions efficiently.
+
+The benchmarking activity was particularly valuable because it connected theoretical concepts with real-world performance measurements. Meanwhile, laboratory sessions reinforced classroom learning through hands-on exploration of computer systems.
+
+As a Data Engineering student, understanding computer architecture is important because data processing systems rely heavily on efficient hardware utilization, memory management, and performance optimization.
+
+---
+
+# 🛠️ Skills Developed
+
+- Computer Hardware Understanding
+- Performance Analysis
+- Benchmarking Techniques
+- System Evaluation
+- Memory Hierarchy Analysis
+- Critical Thinking
+- Technical Problem Solving
+- Analytical Skills
+- Technical Documentation
+
+---
+
+# 🚧 Challenges Faced
+
+- Understanding low-level hardware concepts.
+- Differentiating between various memory types.
+- Interpreting benchmarking results accurately.
+- Relating hardware performance to software execution.
+
+These challenges improved my analytical thinking and strengthened my understanding of computer systems.
+
+---
+
+# 🚀 Future Learning Goals
+
+After completing this course, I would like to explore:
+
+- Advanced Computer Architecture
+- Parallel Computing
+- High Performance Computing (HPC)
+- Cloud Infrastructure
+- Distributed Systems
+- Hardware Optimization Techniques
+- Processor Design
+
+---
+
+# 📌 Conclusion
+
+Computer Organization and Architecture provided a strong foundation in understanding how computer systems operate at the hardware level. Through benchmarking activities and laboratory exercises, I gained valuable knowledge about processor performance, memory organization, and system architecture. The concepts learned in this course will support future studies in Data Engineering, Distributed Systems, Cloud Computing, and High-Performance Data Processing.

@@ -1,101 +1,193 @@
 # Technology and Information System (SECP1513)
 
-Welcome to the **Technology and Information System (SECP1513)** portfolio folder. This course provides a foundational overview of core computing concepts, modern technology trends, industry infrastructure, and professional development paths. It bridges theoretical principles with hands-on practice and industry exposure.
+Welcome to the **Technology and Information System (SECP1513)** portfolio folder. This course provides a foundational understanding of computing technologies, information systems, cloud computing, digital infrastructure, cybersecurity awareness, and professional development. Through coursework, industrial talks, site visits, and hands-on activities, students gain both theoretical knowledge and practical exposure to real-world technology environments.
 
 ---
 
-## 👥 Group Members (Group 9)
+## 📚 Course Learning Outcomes
 
-| Name | Matric Number | Course / Program |
-| :--- | :--- | :--- |
-| **Dheshieghan A/L Saravana Moorthy** | A23CS0072 | Bachelor of Computer Science |
-| **Pravinraj A/L Sivabathi** | A23CS0171 | Bachelor of Computer Science |
-| **Mohamed Alif Fathi Bin Abdul Latif** | A23CS0112 | Bachelor of Computer Science |
-| **Muhammad Asyraf Bin Ahmad Termizi** | A22EC8019 | Bachelor of Computer Science |
+Throughout this course, I gained exposure to:
 
----
-
-## 📂 Coursework & Key Learning Artifacts
-
-Here is an overview of the assignments, labs, and industrial visits completed throughout the semester:
-
-### 1. Chapter 8: Cloud Computing Mindmap
-*   **Location:** [CHAP 8 MINDMAP](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/CHAP%208%20MINDMAP)
-*   **Deliverables:** 
-    *   [CHAPTER 8 MINDMAP.pdf](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/CHAP%208%20MINDMAP/CHAPTER%208%20MINDMAP.pdf)
-    *   [mindmap reflection.docx](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/CHAP%208%20MINDMAP/mindmap%20reflection.docx)
-*   **Key Focus Areas:** 
-    *   Defining Cloud Computing (on-demand compute, storage, databases, and apps with pay-as-you-go models).
-    *   Comparing Traditional Infrastructure (hardware-dependent, capacity guessing) with Cloud Infrastructure (software-defined, scalable, flexible).
-    *   Deployment Models (Public Cloud, Private/On-premises Cloud, Hybrid Cloud).
-    *   Service Models (IaaS, PaaS, SaaS).
-    *   Identifying organizational, technical, and legal challenges.
-
-### 2. Design Thinking Assignment
-*   **Location:** [DESIGN THINKING ASSIGNMENT](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/DESIGN%20THINKING%20ASSIGNMENT)
-*   **Deliverables:** 
-    *   [DESIGN THINKING ASSIGNMENT.pdf](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/DESIGN%20THINKING%20ASSIGNMENT/DESIGN%20THINKING%20ASSIGNMENT.pdf)
-    *   [DESIGN THINKING ASSIGNMENT.docx](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/DESIGN%20THINKING%20ASSIGNMENT/DESIGN%20THINKING%20ASSIGNMENT.docx)
-    *   🎥 [Design Thinking Interview & Presentation Video](https://youtu.be/Zb6Tcj2Rirw?feature=shared)
-*   **Key Focus Areas:**
-    *   Applying the 5 phases of Design Thinking: **Empathize**, **Define**, **Ideate**, **Prototype**, and **Test**.
-    *   Addressing trading scams and broker-level credentials theft.
-    *   Prototyping **"ShieldBit"**, a security-focused blockchain application layer featuring biometric scanning, two-step OTP authorization, bank statement auditing, real-time exchange rates, and transaction logging.
-
-### 3. Industrial Talk by PPG and Dr. Khatib
-*   **Location:** [Industrial talk by PPG and Dr khatib](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/Industrial%20talk%20by%20PPG%20and%20Dr%20khatib)
-*   **Deliverables:** 
-    *   [Critical Points.pdf](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/Industrial%20talk%20by%20PPG%20and%20Dr%20khatib/Critical%20Points_20231107_144329_0000.pdf)
-    *   [Industrial talk by ppg and dr khatib.docx](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/Industrial%20talk%20by%20PPG%20and%20Dr%20khatib/Industrial%20talk%20by%20ppg%20and%20dr%20khatib.docx)
-*   **Key Focus Areas:**
-    *   **Career Development:** Understanding standard industry mistakes in job hunting (e.g., overly narrow job applications, starting job search too late).
-    *   **Qualified Skills:** Developing a target portfolio (Netflix analytics, Covid-19 data sets) and learning core skills like SQL, data modeling, BI visualization tools, and programming.
-    *   **Attitude & Mindset:** Emphasizing curiosity, adaptability, open-mindedness, and eagerness to learn.
-
-### 4. TIS Newsletter (Petronas & Huawei Industrial Visit)
-*   **Location:** [NEWSLETTER](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/NEWSLETTER)
-*   **Deliverables:**
-    *   [TIS NEWSLETTER.pdf](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/NEWSLETTER/TIS%20NEWSLETTER.pdf)
-*   **Key Focus Areas:**
-    *   **Petronas Visit:** Learning about software development life cycles and backend infrastructure maintenance from Mr. Roman Kvaska (Head Software Engineer), and cybersecurity/networking strategies from Mr. Jeet.
-    *   **Huawei Visit:** Investigating advanced network devices, 5G deployment, and interactive systems like digital whiteboards.
-
-### 5. PC Assembly Lab
-*   **Location:** [PC ASSEMBLE](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/PC%20ASSEMBLE)
-*   **Deliverables:**
-    *   [PC ASSEMBLE.docx](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/PC%20ASSEMBLE/PC%20ASSEMBLE.docx)
-*   **Key Focus Areas:**
-    *   Hands-on assembly and disassembly of physical computer hardware under lab supervisor guidance.
-    *   Identifying key components: motherboard, CPU, RAM, storage, power supply unit (PSU), cooling systems, and motherboard header connections.
-
-### 6. Visit to UTM Digital
-*   **Location:** [UTM DIGITAL](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/UTM%20DIGITAL)
-*   **Deliverables:**
-    *   [The visit to UTM DIGITAL.docx](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/UTM%20DIGITAL/The%20visit%20to%20UTM%20DIGITAL.docx)
-    *   🎥 [UTM Digital Visit Video Link (video file)](file:///c:/Users/ASUS/OneDrive/Desktop/coursework/sem1/TIS/TIS/UTM%20DIGITAL/video)
-    *   🔗 [UTM Digital Youtube Video](https://youtu.be/hXwdiJQ05CU?si=ndLERFfJI39WdWeT)
-*   **Key Focus Areas:**
-    *   Understanding internal university IT governance, director's office workflows, and the innovation labs.
-    *   In-depth look at enterprise-grade Data Center architecture, covering cooling systems, power backups, and servers, which is directly relevant to students pursuing data engineering.
+- Information systems and digital technologies
+- Cloud computing concepts and architectures
+- Design thinking methodologies
+- Computer hardware and system assembly
+- Industry trends and career preparation
+- Data centers and enterprise IT infrastructure
+- Professional communication and teamwork
 
 ---
 
-## 💡 Course Reflections & What We Learned
+## 📂 Coursework & Learning Artifacts
 
-> [!TIP]
-> Each project and visit throughout the course offered unique lessons, building a holistic picture of how IT systems operate and how careers are shaped in the industry.
+### ☁️ Chapter 8: Cloud Computing Mind Map
 
-### 👥 Teamwork & Collaboration
-*   **Collaborative Learning (Mindmap & Design Thinking):** Working in a team of four highlighted how combining different strengths can result in a more cohesive product. From brainstorming sessions to dividing tasks (interviewing, editing, reporting, and prototyping), the team learned how to coordinate schedules, align visions, and successfully resolve technical challenges together.
+**Location:** `CHAP 8 MINDMAP`
 
-### 🛠️ Technical Competencies
-*   **Cloud & Blockchain Technology:** We gained a deep understanding of cloud infrastructure options (IaaS, PaaS, SaaS) and deployment structures. For blockchain, we learned how decentralized ledgers secure transactions, and mapped these concepts to solve real-world problems in user-centric trading software designs.
-*   **Practical Hardware Assembly:** The PC assembly lab provided tangible experience, taking away the intimidation of building computer rigs and bridging the gap between software design and hardware execution.
-*   **Data Infrastructure & Center Architecture:** The visits to UTM Digital's data center and Petronas's cybersecurity teams demystified the physical infrastructure necessary to support massive enterprise data systems.
+#### Deliverables
+- CHAPTER 8 MINDMAP.pdf
+- Mind Map Reflection
 
-### 💼 Professional Growth & Industry Awareness
-*   **Industry Standards (Petronas & Huawei):** The industrial visits exposed the team to cutting-edge technologies like 5G and interactive enterprise products. It also emphasized the importance of soft skills (communication, problem-solving, and collaboration) alongside hard programming skills.
-*   **Career Preparation (PPG & Dr. Khatib):** The talks provided concrete strategies for job applications, building rich public portfolios early on, and cultivating curiosity and adaptability. It showed that data engineering is the critical backbone of modern businesses, affecting revenue, security, and operational capability.
+#### Key Learning Areas
+- Cloud Computing fundamentals
+- Public, Private, and Hybrid Cloud models
+- Service models (IaaS, PaaS, SaaS)
+- Traditional vs Cloud Infrastructure
+- Technical, legal, and organizational challenges
+
+#### Reflection
+This activity strengthened my understanding of modern cloud technologies and their role in supporting scalable business operations. As a future Data Engineer, understanding cloud infrastructure is important because modern data platforms heavily rely on cloud-based services.
 
 ---
-[← Back to Semester 1 Portfolio](../README.md)
+
+### 🎨 Design Thinking Assignment
+
+**Location:** `DESIGN THINKING ASSIGNMENT`
+
+#### Deliverables
+- Design Thinking Assignment Report
+- Interview and Presentation Video
+
+#### Project Overview
+Our team developed **ShieldBit**, a blockchain-based security application designed to address trading scams and credential theft. The proposed solution integrates biometric authentication, OTP verification, transaction logging, exchange rate monitoring, and financial auditing capabilities.
+
+#### Key Learning Areas
+- Empathize
+- Define
+- Ideate
+- Prototype
+- Test
+
+#### Reflection
+This project demonstrated how technology solutions should be designed around user needs. The Design Thinking framework helped our team approach problem-solving systematically while encouraging creativity and innovation.
+
+---
+
+### 🏭 Industrial Talk by PPG and Dr. Khatib
+
+**Location:** `Industrial talk by PPG and Dr khatib`
+
+#### Deliverables
+- Critical Points Summary
+- Reflection Report
+
+#### Key Learning Areas
+- Career preparation strategies
+- Portfolio development
+- Industry expectations
+- SQL and Data Analytics skills
+- Data visualization and business intelligence
+- Professional mindset and adaptability
+
+#### Reflection
+The speakers emphasized the importance of building projects early and maintaining a strong portfolio. This session motivated me to continuously improve my technical skills and prepare myself for future internship and career opportunities.
+
+---
+
+### 📰 TIS Newsletter (Petronas & Huawei Industrial Visit)
+
+**Location:** `NEWSLETTER`
+
+#### Deliverables
+- TIS Newsletter
+
+#### Petronas Visit
+- Software Development Lifecycle (SDLC)
+- Backend system maintenance
+- Cybersecurity practices
+- Network infrastructure
+
+#### Huawei Visit
+- 5G technologies
+- Enterprise networking devices
+- Interactive collaboration technologies
+
+#### Reflection
+The visits provided valuable exposure to real-world technology implementation. I gained a deeper understanding of how large organizations manage software systems, cybersecurity operations, and communication infrastructure.
+
+---
+
+### 🖥️ PC Assembly Lab
+
+**Location:** `PC ASSEMBLE`
+
+#### Deliverables
+- PC Assembly Report
+
+#### Key Learning Areas
+- Motherboard components
+- CPU installation
+- RAM configuration
+- Storage devices
+- Power Supply Unit (PSU)
+- Cooling systems
+- Hardware troubleshooting
+
+#### Reflection
+This hands-on activity helped me understand how computer hardware components interact with one another. It strengthened my technical foundation and reduced my hesitation in handling physical computer systems.
+
+---
+
+### 🏢 Visit to UTM Digital
+
+**Location:** `UTM DIGITAL`
+
+#### Deliverables
+- Visit Report
+- Video Documentation
+
+#### Key Learning Areas
+- IT Governance
+- University Digital Infrastructure
+- Innovation Labs
+- Enterprise Data Centers
+- Server Management
+- Cooling and Power Backup Systems
+
+#### Reflection
+The visit provided an in-depth look at enterprise-level infrastructure management. As a Data Engineering student, observing the data center operations helped me understand the physical infrastructure that supports large-scale data processing and storage systems.
+
+---
+
+## 💡 Overall Reflection
+
+Technology and Information System (SECP1513) provided a comprehensive introduction to the technology ecosystem that supports modern organizations. Throughout the semester, I learned how information systems, cloud computing, cybersecurity, networking, hardware, and digital infrastructure work together to support business operations.
+
+One of the most valuable aspects of this course was the combination of classroom learning and industry exposure. Through industrial talks, site visits, and practical activities, I was able to connect theoretical concepts with real-world applications. These experiences broadened my understanding of technology careers and strengthened my interest in Data Engineering.
+
+The course also improved my teamwork, communication, critical thinking, and problem-solving skills through collaborative assignments and presentations.
+
+---
+
+## 🛠️ Skills Developed
+
+- Cloud Computing Fundamentals
+- Information Systems Knowledge
+- Design Thinking
+- Problem Solving
+- Team Collaboration
+- Technical Communication
+- Computer Hardware Assembly
+- Industry Awareness
+- Professional Development
+- Critical Thinking
+
+---
+
+## 🚀 Future Learning Goals
+
+After completing this course, I hope to further develop my knowledge in:
+
+- Data Engineering
+- Cloud Platforms (AWS, Azure, Google Cloud)
+- Cybersecurity
+- Big Data Technologies
+- Data Center Architecture
+- Artificial Intelligence Applications
+- Enterprise Information Systems
+
+---
+
+## 📌 Conclusion
+
+Technology and Information System (SECP1513) successfully provided a strong foundation in modern computing technologies and professional development. The knowledge and experiences gained through assignments, laboratory activities, industrial talks, and site visits have enhanced both my technical understanding and career awareness. These experiences will continue to support my academic journey and future career in Data Engineering.
