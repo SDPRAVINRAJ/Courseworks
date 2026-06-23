@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Pravinraj Sivabathi – Data Engineering Student, PETRONAS Scholar & Aspiring Data Engineer. Explore my projects, certifications, and competitions." />
+  <meta name="keywords"
+    content="Pravinraj Sivabathi, Data Engineering, PETRONAS Scholar, UTM, Portfolio, Python, Apache Spark, Azure, AWS" />
+  <meta property="og:title" content="Pravinraj Sivabathi | Data Engineer Portfolio" />
+  <meta property="og:description"
+    content="PETRONAS Scholar & Aspiring Data Engineer – Turning raw data into meaningful insights." />
+  <meta property="og:type" content="website" />
+  <title>Pravinraj Sivabathi | Data Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Pravinraj<span class="logo-bracket">/&gt;</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#competitions" class="nav-link">Competitions</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#awards" class="nav-link">Awards</a></li>
+        <li><a href="#coursework" class="nav-link">Coursework</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#resume" class="nav-link nav-cta">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-name">
+        <span class="greeting">👋 Hello, I'm</span>
+        <span class="name-highlight">Pravinraj Sivabathi</span>
+      </h1>
+      <div class="hero-roles">
+        <span class="role-text" id="role-text">Data Engineering Student</span>
+      </div>
+      <p class="hero-sub">
+        🏆 PETRONAS Scholar &nbsp;·&nbsp; 🎓 UTM &nbsp;·&nbsp; 📍 Malaysia
+      </p>
+      <p class="hero-desc">
+        Designing scalable data solutions and transforming raw data into meaningful insights.<br />
+        Passionate about Data Engineering, Cloud Technologies & Business Intelligence.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary" id="view-projects-btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">4+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Competitions</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">6</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">2</span>
+          <span class="stat-label">Awards</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get to know me</span>
+        <h2 class="section-title">💡 About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card">
+          <div class="about-icon">🎓</div>
+          <h3>Education</h3>
+          <p>Bachelor of Computer Science<br /><strong>(Data Engineering)</strong></p>
+          <span class="about-detail">Universiti Teknologi Malaysia (UTM)</span>
+        </div>
+        <div class="about-card glass-card">
+          <div class="about-icon">🏆</div>
+          <h3>Scholarship</h3>
+          <p>Awarded the prestigious<br /><strong>PETRONAS Scholarship</strong></p>
+          <span class="about-detail">PETRONAS Education Sponsorship Programme (PESP)</span>
+        </div>
+        <div class="about-card glass-card">
+          <div class="about-icon">📍</div>
+          <h3>Location</h3>
+          <p>Based in<br /><strong>Malaysia</strong></p>
+          <span class="about-detail">Open to remote & hybrid opportunities</span>
+        </div>
+      </div>
+      <div class="about-text glass-card">
+        <p>
+          I am passionate about designing <strong>scalable data solutions</strong> and transforming raw data into
+          meaningful insights.
+          My interests lie in <span class="highlight-text">Data Engineering</span>, <span class="highlight-text">Data
+            Warehousing</span>,
+          <span class="highlight-text">Big Data Processing</span>, <span class="highlight-text">Cloud
+            Technologies</span>,
+          and <span class="highlight-text">Business Intelligence</span>.
+        </p>
+        <p>
+          I believe in the power of data to drive decisions, and I am constantly exploring new tools, architectures,
+          and best practices to build robust and efficient data pipelines.
+        </p>
+        <div class="currently-learning">
+          <h4>📚 Currently Exploring</h4>
+          <div class="learning-grid">
+            <div class="learning-item"><span class="learning-icon">☁️</span>
+              <div><strong>Cloud Computing</strong><span>AWS Services &amp; Architecture</span></div>
+            </div>
+            <div class="learning-item"><span class="learning-icon">⚡</span>
+              <div><strong>Big Data</strong><span>Apache Spark Optimization</span></div>
+            </div>
+            <div class="learning-item"><span class="learning-icon">🏗</span>
+              <div><strong>Data Architecture</strong><span>Data Lakes &amp; Warehouses</span></div>
+            </div>
+            <div class="learning-item"><span class="learning-icon">🔄</span>
+              <div><strong>Data Pipelines</strong><span>Modern ETL Practices</span></div>
+            </div>
+            <div class="learning-item"><span class="learning-icon">📊</span>
+              <div><strong>Analytics</strong><span>Advanced Dashboard Development</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I work with</span>
+        <h2 class="section-title">🛠️ Tech Stack</h2>
+      </div>
+
+      <div class="skills-category glass-card">
+        <h3 class="skills-cat-title">Programming Languages</h3>
+        <div class="lang-icons">
+          <img src="https://skillicons.dev/icons?i=python,java,cpp,php,html,css,mysql"
+            alt="Programming language icons: Python, Java, C++, PHP, HTML, CSS, MySQL" loading="lazy" />
+        </div>
+        <div class="lang-pills">
+          <span class="pill">Python</span><span class="pill">Java</span><span class="pill">C++</span>
+          <span class="pill">PHP</span><span class="pill">HTML/CSS</span><span class="pill">MySQL</span>
+        </div>
+      </div>
+
+      <div class="skills-double-grid">
+        <div class="skills-category glass-card">
+          <h3 class="skills-cat-title">⚡ Data Engineering</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-icon">⚡</span>
+              <div class="skill-info"><strong>Apache Spark</strong><span>Distributed Data Processing</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">🔥</span>
+              <div class="skill-info"><strong>PySpark</strong><span>Data Transformation &amp; ETL</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">🏗</span>
+              <div class="skill-info"><strong>PostgreSQL</strong><span>Data Warehousing</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">📦</span>
+              <div class="skill-info"><strong>Docker</strong><span>Containerization</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">🗂</span>
+              <div class="skill-info"><strong>Parquet</strong><span>Optimized Data Storage</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">🔄</span>
+              <div class="skill-info"><strong>ETL Pipelines</strong><span>Data Integration</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">☁️</span>
+              <div class="skill-info"><strong>Databricks</strong><span>Big Data Analytics</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category glass-card">
+          <h3 class="skills-cat-title">📊 Analytics &amp; Visualization</h3>
+          <div class="skill-list">
+            <div class="skill-item"><span class="skill-icon">📊</span>
+              <div class="skill-info"><strong>Power BI</strong><span>Interactive Dashboards</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">📈</span>
+              <div class="skill-info"><strong>Metabase</strong><span>Business Intelligence</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">🗄</span>
+              <div class="skill-info"><strong>SQL Analytics</strong><span>Data Analysis &amp; Reporting</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">🐼</span>
+              <div class="skill-info"><strong>Pandas</strong><span>Data Manipulation</span></div>
+            </div>
+            <div class="skill-item"><span class="skill-icon">📉</span>
+              <div class="skill-info"><strong>Reporting</strong><span>Data Visualization</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-category glass-card">
+        <h3 class="skills-cat-title">🔧 Tools &amp; Platforms</h3>
+        <div class="tools-grid">
+          <div class="tool-badge"><span class="tool-dot aws"></span>AWS</div>
+          <div class="tool-badge"><span class="tool-dot azure"></span>Microsoft Azure</div>
+          <div class="tool-badge"><span class="tool-dot databricks"></span>Databricks</div>
+          <div class="tool-badge"><span class="tool-dot spark"></span>Apache Spark</div>
+          <div class="tool-badge"><span class="tool-dot powerbi"></span>Power BI</div>
+          <div class="tool-badge"><span class="tool-dot metabase"></span>Metabase</div>
+          <div class="tool-badge"><span class="tool-dot alteryx"></span>Alteryx</div>
+          <div class="tool-badge"><span class="tool-dot postgres"></span>PostgreSQL</div>
+          <div class="tool-badge"><span class="tool-dot docker"></span>Docker</div>
+          <div class="tool-badge"><span class="tool-dot github"></span>GitHub</div>
+          <div class="tool-badge"><span class="tool-dot office"></span>MS Office</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've built</span>
+        <h2 class="section-title">🚀 Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card glass-card" data-index="0">
+          <div class="project-header">
+            <span class="project-emoji">🎨</span>
+            <div class="project-badges-top">
+              <span class="project-badge azure-badge">Azure</span>
+              <span class="project-badge cloud-badge">Cloud</span>
+            </div>
+          </div>
+          <h3 class="project-title">PPG Inventory Analytics Pipeline</h3>
+          <p class="project-desc">Developed a cloud-based inventory analytics solution using <strong>Medallion
+              Architecture</strong>, integrating multiple inventory datasets to monitor stock levels, dead stock,
+            stockout risks, production insights, and financial provisioning metrics.</p>
+          <div class="project-tech-stack">
+            <span class="tech-tag">Azure Data Factory</span>
+            <span class="tech-tag">Azure Synapse Analytics</span>
+            <span class="tech-tag">ADLS Gen2</span>
+            <span class="tech-tag">Databricks</span>
+            <span class="tech-tag">Power BI</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/SDPRAVINRAJ/Courseworks/tree/main/sem6/SPECIAL%20TOPIC%20IN%20DATA%20ENGINEERING/Project"
+              target="_blank" rel="noopener" class="project-link" id="project-ppg-repo">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              View Repository
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-index="1">
+          <div class="project-header">
+            <span class="project-emoji">🇧🇷</span>
+            <div class="project-badges-top">
+              <span class="project-badge spark-badge">Spark</span>
+              <span class="project-badge data-badge">ETL</span>
+            </div>
+          </div>
+          <h3 class="project-title">Brazilian Education Census ETL Pipeline</h3>
+          <p class="project-desc">Processed a <strong>~2.2GB census dataset</strong>, converted raw CSV files into
+            optimized <strong>Parquet</strong>, and built a <strong>Star Schema warehouse</strong> for analytics using
+            distributed computing.</p>
+          <div class="project-tech-stack">
+            <span class="tech-tag">Apache Spark</span>
+            <span class="tech-tag">PySpark</span>
+            <span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">Docker</span>
+            <span class="tech-tag">Metabase</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/SDPRAVINRAJ/brazilian-school-census-etl-pipeline" target="_blank" rel="noopener"
+              class="project-link" id="project-brazil-repo">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              View Repository
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-index="2">
+          <div class="project-header">
+            <span class="project-emoji">🌎</span>
+            <div class="project-badges-top">
+              <span class="project-badge db-badge">Databricks</span>
+              <span class="project-badge viz-badge">Analytics</span>
+            </div>
+          </div>
+          <h3 class="project-title">US Emissions Analytics Dashboard</h3>
+          <p class="project-desc">Analyzed emissions across <strong>3,000+ US counties</strong> using interactive
+            dashboards and geospatial analytics to identify environmental trends and patterns.</p>
+          <div class="project-tech-stack">
+            <span class="tech-tag">Databricks SQL</span>
+            <span class="tech-tag">Data Visualization</span>
+            <span class="tech-tag">Geospatial Analytics</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/SDPRAVINRAJ/US-Emissions-Data-Dashboard-Databricks-SQL-" target="_blank"
+              rel="noopener" class="project-link" id="project-emissions-repo">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              View Repository
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card" data-index="3">
+          <div class="project-header">
+            <span class="project-emoji">🛒</span>
+            <div class="project-badges-top">
+              <span class="project-badge sql-badge">MySQL</span>
+              <span class="project-badge py-badge">Python</span>
+            </div>
+          </div>
+          <h3 class="project-title">Customer Shopping Behavior Analysis</h3>
+          <p class="project-desc">Explored customer purchasing behavior and business performance through <strong>SQL
+              analysis</strong> and interactive <strong>Power BI dashboards</strong>, uncovering actionable insights for
+            business strategy.</p>
+          <div class="project-tech-stack">
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Power BI</span>
+          </div>
+          <div class="project-footer">
+            <a href="https://github.com/SDPRAVINRAJ/customer_behavior_data-analysis" target="_blank" rel="noopener"
+              class="project-link" id="project-shopping-repo">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              View Repository
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COMPETITIONS ===================== -->
+  <section id="competitions" class="section competitions-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Hackathons &amp; challenges</span>
+        <h2 class="section-title">🏅 Competitions</h2>
+      </div>
+      <div class="competitions-grid">
+
+        <div class="competition-card glass-card" id="comp-utm">
+          <div class="comp-header">
+            <span class="comp-emoji">💰</span>
+            <div class="comp-meta">
+              <span class="comp-event">UTMxHackathon'26 – Youth Resilience Challenge</span>
+            </div>
+          </div>
+          <h3 class="comp-project">GXBuddy – Your AI Financial Companion</h3>
+          <p class="comp-desc">Developed an AI-powered financial wellness platform that helps Malaysian youth build
+            financial resilience through spending predictions, automated savings, gamification, and personalized
+            financial insights integrated into digital banking experiences.</p>
+          <a href="https://github.com/SDPRAVINRAJ/UTM-X-HACKATHON-2026/tree/main" target="_blank" rel="noopener"
+            class="comp-link" id="comp-utm-repo">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+            View Project
+          </a>
+        </div>
+
+        <div class="competition-card glass-card" id="comp-myverse">
+          <div class="comp-header">
+            <span class="comp-emoji">🥗</span>
+            <div class="comp-meta">
+              <span class="comp-event">MyVerse Challenge 2025</span>
+            </div>
+          </div>
+          <h3 class="comp-project">SembangSihat – AI Nutrition Intelligence Platform</h3>
+          <p class="comp-desc">Developed an AI-powered wellness web application tailored to Malaysian food culture,
+            featuring menu analysis, personalized health insights, community engagement, and gamified rewards to promote
+            healthier lifestyle choices.</p>
+          <a href="https://github.com/SDPRAVINRAJ/sembangSIhat-webapp/tree/main" target="_blank" rel="noopener"
+            class="comp-link" id="comp-myverse-repo">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+            View Project
+          </a>
+        </div>
+
+        <div class="competition-card glass-card" id="comp-dosm">
+          <div class="comp-header">
+            <span class="comp-emoji">📈</span>
+            <div class="comp-meta">
+              <span class="comp-event">DOSM Datathon 2025</span>
+            </div>
+          </div>
+          <h3 class="comp-project">DataKita – AI/ML Data Centre Talent Planning</h3>
+          <p class="comp-desc">Developed a workforce analytics and recommendation system to support Malaysia's Data
+            Centre talent ecosystem through AI/ML, geospatial analytics, and Power BI dashboards.</p>
+          <a href="https://github.com/SDPRAVINRAJ/DataKita-AI-ML-Data-Centre-Talent-Planning" target="_blank"
+            rel="noopener" class="comp-link" id="comp-dosm-repo">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+            View Project
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATIONS ===================== -->
+  <section id="certifications" class="section certs-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Professional development</span>
+        <h2 class="section-title">🏆 Certifications</h2>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card glass-card" id="cert-azure">
+          <div class="cert-icon azure-icon">☁️</div>
+          <div class="cert-body">
+            <h3>Azure Data Fundamentals (DP-900)</h3>
+            <span class="cert-provider">Microsoft</span>
+          </div>
+          <div class="cert-glow azure-glow"></div>
+        </div>
+        <div class="cert-card glass-card" id="cert-alteryx">
+          <div class="cert-icon alteryx-icon">🔧</div>
+          <div class="cert-body">
+            <h3>Alteryx Designer Core Certification</h3>
+            <span class="cert-provider">Alteryx</span>
+          </div>
+          <div class="cert-glow alteryx-glow"></div>
+        </div>
+        <div class="cert-card glass-card" id="cert-aws1">
+          <div class="cert-icon aws-icon">🌩️</div>
+          <div class="cert-body">
+            <h3>AWS Cloud Foundations</h3>
+            <span class="cert-provider">Amazon Web Services</span>
+          </div>
+          <div class="cert-glow aws-glow"></div>
+        </div>
+        <div class="cert-card glass-card" id="cert-aws2">
+          <div class="cert-icon aws-icon">⚙️</div>
+          <div class="cert-body">
+            <h3>AWS Cloud Developing</h3>
+            <span class="cert-provider">Amazon Web Services</span>
+          </div>
+          <div class="cert-glow aws-glow"></div>
+        </div>
+        <div class="cert-card glass-card" id="cert-dc">
+          <div class="cert-icon dc-icon">🏗️</div>
+          <div class="cert-body">
+            <h3>Data Centre Foundation Training</h3>
+            <span class="cert-provider">Skill2Work</span>
+          </div>
+          <div class="cert-glow dc-glow"></div>
+        </div>
+        <div class="cert-card glass-card" id="cert-sap">
+          <div class="cert-icon sap-icon">📊</div>
+          <div class="cert-body">
+            <h3>SAP Analytics &amp; SAP Build Apps Training</h3>
+            <span class="cert-provider">SAP</span>
+          </div>
+          <div class="cert-glow sap-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AWARDS ===================== -->
+  <section id="awards" class="section awards-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recognition &amp; honours</span>
+        <h2 class="section-title">🌟 Awards &amp; Recognition</h2>
+      </div>
+      <div class="awards-grid">
+        <div class="award-card glass-card" id="award-petronas">
+          <div class="award-ribbon petronas-ribbon">🎓 Scholar</div>
+          <div class="award-icon">🏆</div>
+          <h3 class="award-title">PETRONAS Scholar</h3>
+          <p class="award-subtitle">PETRONAS Education Sponsorship Programme (PESP)</p>
+          <p class="award-desc">Awarded the prestigious <strong>PETRONAS Scholarship</strong> in recognition of academic
+            excellence, leadership potential, and commitment to professional development in Data Engineering and
+            Technology.</p>
+          <div class="award-badge">
+            <img src="https://img.shields.io/badge/PETRONAS-Scholar-00A19C?style=for-the-badge"
+              alt="PETRONAS Scholar Badge" loading="lazy" />
+          </div>
+        </div>
+        <div class="award-card glass-card" id="award-gold">
+          <div class="award-ribbon gold-ribbon">🥇 Gold</div>
+          <div class="award-icon gold-award-icon">🥇</div>
+          <h3 class="award-title">Gold Award</h3>
+          <p class="award-subtitle">DICE 3.0 International Digital Games Competition</p>
+          <p class="award-desc">Received the <strong>Gold Award</strong> in the <strong>Digital Games Category</strong>
+            for demonstrating innovation, creativity, teamwork, and technical excellence in solution development.</p>
+          <div class="award-badge">
+            <img src="https://img.shields.io/badge/Award-Gold-FFD700?style=for-the-badge&logo=trophy&logoColor=black"
+              alt="Gold Award Badge" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== COURSEWORK ===================== -->
+  <section id="coursework" class="section coursework-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic repository</span>
+        <h2 class="section-title">🎓 Coursework Repository</h2>
+      </div>
+      <p class="coursework-intro">All semester coursework, assignments, lab work, and academic projects are organized by
+        semester in a dedicated repository.</p>
+      <div class="semester-grid">
+        <a href="https://github.com/SDPRAVINRAJ/Courseworks/tree/main/sem1" target="_blank" rel="noopener"
+          class="semester-card" id="sem1">
+          <span class="sem-num">01</span>
+          <span class="sem-label">Semester 1</span>
+        </a>
+        <a href="https://github.com/SDPRAVINRAJ/Courseworks/tree/main/sem2" target="_blank" rel="noopener"
+          class="semester-card" id="sem2">
+          <span class="sem-num">02</span>
+          <span class="sem-label">Semester 2</span>
+        </a>
+        <a href="https://github.com/SDPRAVINRAJ/Courseworks/tree/main/sem3" target="_blank" rel="noopener"
+          class="semester-card" id="sem3">
+          <span class="sem-num">03</span>
+          <span class="sem-label">Semester 3</span>
+        </a>
+        <a href="https://github.com/SDPRAVINRAJ/Courseworks/tree/main/sem4" target="_blank" rel="noopener"
+          class="semester-card" id="sem4">
+          <span class="sem-num">04</span>
+          <span class="sem-label">Semester 4</span>
+        </a>
+        <a href="https://github.com/SDPRAVINRAJ/Courseworks/tree/main/sem5" target="_blank" rel="noopener"
+          class="semester-card" id="sem5">
+          <span class="sem-num">05</span>
+          <span class="sem-label">Semester 5</span>
+        </a>
+        <a href="https://github.com/SDPRAVINRAJ/Courseworks/tree/main/sem6" target="_blank" rel="noopener"
+          class="semester-card" id="sem6">
+          <span class="sem-num">06</span>
+          <span class="sem-label">Semester 6</span>
+        </a>
+      </div>
+      <div class="coursework-cta">
+        <a href="https://github.com/SDPRAVINRAJ/Courseworks" target="_blank" rel="noopener" class="btn btn-primary"
+          id="full-coursework-btn">
+          📁 Full Coursework Repository
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESUME ===================== -->
+  <section id="resume" class="section resume-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My credentials</span>
+        <h2 class="section-title">📄 Resume</h2>
+      </div>
+      <div class="resume-card glass-card">
+        <div class="resume-icon">📄</div>
+        <h3>Download My Resume</h3>
+        <p>Get a full overview of my education, skills, experience, and achievements in a single document.</p>
+        <div class="resume-actions">
+          <!-- Replace the href below with the actual resume link when available -->
+          <a href="resume.pdf" target="_blank" rel="noopener" class="btn btn-primary" id="download-resume-btn">
+            ⬇️ Download Resume
+          </a>
+          <span class="resume-note">📝 Update resume link in index.html → #resume section</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's connect</span>
+        <h2 class="section-title">📫 Contact Me</h2>
+      </div>
+      <p class="contact-intro">I'm always open to new opportunities, collaborations, and conversations about data
+        engineering. Feel free to reach out!</p>
+      <div class="contact-cards">
+        <a href="mailto:s.d.pravinraj@gmail.com" class="contact-card glass-card" id="contact-email">
+          <div class="contact-icon email-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-type">Email</span>
+            <span class="contact-value">s.d.pravinraj@gmail.com</span>
+          </div>
+          <svg class="contact-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/pravinraj04/" target="_blank" rel="noopener"
+          class="contact-card glass-card" id="contact-linkedin">
+          <div class="contact-icon linkedin-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-type">LinkedIn</span>
+            <span class="contact-value">in/pravinraj04</span>
+          </div>
+          <svg class="contact-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </a>
+
+        <a href="https://github.com/SDPRAVINRAJ" target="_blank" rel="noopener" class="contact-card glass-card"
+          id="contact-github">
+          <div class="contact-icon github-icon-c">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+            </svg>
+          </div>
+          <div class="contact-info">
+            <span class="contact-type">GitHub</span>
+            <span class="contact-value">SDPRAVINRAJ</span>
+          </div>
+          <svg class="contact-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#0F172A" />
+      </svg>
+    </div>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="logo-bracket">&lt;</span>Pravinraj Sivabathi<span class="logo-bracket">/&gt;</span>
+      </div>
+      <p class="footer-quote">💻 "Turning raw data into meaningful insights."</p>
+      <div class="footer-links">
+        <a href="https://github.com/SDPRAVINRAJ" target="_blank" rel="noopener" id="footer-github">GitHub</a>
+        <a href="https://www.linkedin.com/in/pravinraj04/" target="_blank" rel="noopener"
+          id="footer-linkedin">LinkedIn</a>
+        <a href="mailto:s.d.pravinraj@gmail.com" id="footer-email">Email</a>
+      </div>
+      <p class="footer-copy">© 2026 Pravinraj Sivabathi · Built with ❤️ for GitHub Pages</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path d="m18 15-6-6-6 6" />
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
